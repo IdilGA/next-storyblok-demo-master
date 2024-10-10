@@ -7,13 +7,8 @@ import {
 } from "@storyblok/react/rsc";
 import Page from "./page.component";
 import Feature from "./Feature/Feature";
-<<<<<<< HEAD
 import Header from "./header/Header";
  
-=======
-import Header from "./header/Header"
-
->>>>>>> parent of 27803a2 (footer component aangemaakt)
 const components = {
   page: Page,
   feature: Feature,
