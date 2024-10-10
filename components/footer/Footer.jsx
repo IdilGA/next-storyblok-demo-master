@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { storyblokEditable } from "@storyblok/react";
 import "./Footer.css";
 const Footer = ({ blok }) => (
@@ -7,3 +8,5 @@ const Footer = ({ blok }) => (
 );
 
 export default Footer;
+=======
+>>>>>>> parent of 27803a2 (footer component aangemaakt)
