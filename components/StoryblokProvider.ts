@@ -8,11 +8,13 @@ import {
 import Page from "./page.component";
 import Feature from "./Feature/Feature";
 import Header from "./header/Header"
+import evenementen_intro from "./events/evenementen_intro";
 
 const components = {
   page: Page,
   feature: Feature,
   header: Header,
+  evenementen_intro: evenementen_intro,
 };
 
 storyblokInit({
