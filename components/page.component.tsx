@@ -20,7 +20,7 @@ type PageProps = {
 
 const Page: React.FC<PageProps> = ({ blok }) => {
   // Haal het logo op van Storyblok, of gebruik een fallback als er geen logo is
-  const logoUrl = blok.logo?.filename || '/fallback-logo.png';  // Fallback logo als er geen asset is
+ // const logoUrl = blok.logo?.filename || '/fallback-logo.png';  // Fallback logo als er geen asset is
 
   // const navLinks = [
   //   { label: 'Home', url: '/' },
