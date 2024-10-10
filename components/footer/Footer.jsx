@@ -1,13 +1,9 @@
-import { storyblokEditable } from "@storyblok/react/rsc";
-import "./Footer.css"; // Vergeet niet de styling te importeren
-
-const Footer = ({ blok }) => {
-  return (
-    <footer className="footer">
-      {/* Dynamisch logo van Storyblok */}
-      <div className="logo-container" {...storyblokEditable(blok)}></div>
-    </footer>
-  );
-};
+import { storyblokEditable } from "@storyblok/react";
+import "./Footer.css";
+const Footer = ({ blok }) => (
+  <div className="blok-footer" {...storyblokEditable(blok)}>
+    <h1>footer</h1>
+  </div>
+);
 
 export default Footer;
