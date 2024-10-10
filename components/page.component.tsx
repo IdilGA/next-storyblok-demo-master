@@ -1,5 +1,10 @@
 import { storyblokEditable, StoryblokComponent } from '@storyblok/react/rsc';
+<<<<<<< HEAD
  
+=======
+import Header from './header/Header';  // Importeer de Header component
+
+>>>>>>> parent of 27803a2 (footer component aangemaakt)
 type Blok = {
   _uid: string;
   component: string;
