@@ -7,16 +7,14 @@ import {
 } from "@storyblok/react/rsc";
 import Page from "./page.component";
 import Feature from "./Feature/Feature";
-import Header from "./header/Header";
+import Header from "./header/Header"
+import Footer from "./footer/Footer"
+
 const components = {
   page: Page,
   feature: Feature,
   header: Header,
-<<<<<<< HEAD
   footer: Footer,
-=======
-  evenementen_intro: evenementen_intro,
->>>>>>> aa01590f5aded8dbcefd37f0597cd8aa18815927
 };
 
 storyblokInit({
