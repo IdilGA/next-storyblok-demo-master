@@ -1,16 +1,31 @@
-import React from 'react';
-import './Header.css';  // Vergeet niet de styling te importeren
+import { storyblokEditable } from "@storyblok/react/rsc";
+import "./Header.css"; // Vergeet niet de styling te importeren
 
-const Header = ({ logo, links }) => {
+const Header = ({ blok }) => {
   return (
     <header className="header">
       {/* Dynamisch logo van Storyblok */}
-      <div className="logo-container">
-        <img src={logo} alt="Logo" className="logo" />
+      <div className="logo-container" {...storyblokEditable(blok)}>
+        <img src={blok.logo.filename} alt={blok.logo.alt} className="logo" />
       </div>
+      <ul className="flex flex-row text-white gap-20">
+        <li>Home</li>
+        <a href="/nieuws">
+          <li>Nieuws</li>
+        </a>
+        <a href="">
+          <li>Interviews</li>
+        </a>
+        <a href="">
+          <li>Artikelen</li>
+        </a>
+        <a href="">
+          <li>Evenementen & webinairs</li>
+        </a>
+      </ul>
 
       {/* Navigatiebalk */}
-      <nav className="nav-bar">
+      {/* <nav className="nav-bar">
         <ul className="nav-list">
           {links.map((link, index) => (
             <li key={index} className="nav-item">
@@ -20,12 +35,10 @@ const Header = ({ logo, links }) => {
             </li>
           ))}
         </ul>
-
-        {/* Zoekbalk */}
         <div className="search-bar">
           <input type="text" placeholder="Zoeken..." className="search-input" />
         </div>
-      </nav>
+      </nav> */}
     </header>
   );
 };
