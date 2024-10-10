@@ -14,7 +14,7 @@ const components = {
   page: Page,
   feature: Feature,
   header: Header,
-  footer: Footer
+  footer: Footer,
 };
 
 storyblokInit({
