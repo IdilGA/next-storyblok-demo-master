@@ -1,6 +1,7 @@
 import React from 'react';
 import { storyblokEditable, StoryblokComponent } from '@storyblok/react/rsc';
 import Header from './header/Header';  // Importeer de Header component
+import Footer from './footer/Footer';
 
 type Blok = {
   _uid: string;

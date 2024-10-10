@@ -1,0 +1,109 @@
+.footer {
+    background-color: #1C2D45;
+    color: #FFFFFF;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #FFA500;
+}
+
+/* Contactformulier styling */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    background-color: #2C3E50;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    background-color: #FFA500;
+    color: #1C2D45;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #FFFFFF;
+    color: #1C2D45;
+}
+
+/* Social media iconen */
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media a img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Onderste deel van de footer */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+/* Responsieve layout voor kleinere schermen */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+}
