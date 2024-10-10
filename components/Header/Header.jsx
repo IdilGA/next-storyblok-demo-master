@@ -13,13 +13,13 @@ const Header = ({ blok }) => {
         <a href="/nieuws">
           <li>Nieuws</li>
         </a>
-        <a href="nieuws">
+        <a href="">
           <li>Interviews</li>
         </a>
-        <a href="interviews">
+        <a href="">
           <li>Artikelen</li>
         </a>
-        <a href="artikelen">
+        <a href="">
           <li>Evenementen & webinairs</li>
         </a>
       </ul>
