@@ -2,8 +2,9 @@ import { storyblokEditable } from "@storyblok/react/rsc";
 import { render } from "storyblok-rich-text-react-renderer";
 import "./evenementen_intro.css";
 
-const EvenementenIntro = ({ blok }) => (
+const Evenementen_Intro = ({ blok }) => (
   <div className="evenementen_intro" {...storyblokEditable(blok)}>
+    Hallo Luc
     <div className="evenement_afbeelding_container">
       <img
         className="evenement_afbeelding"
@@ -25,4 +26,4 @@ const EvenementenIntro = ({ blok }) => (
   </div>
 );
 
-export default EvenementenIntro;
+export default Evenementen_Intro;
