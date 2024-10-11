@@ -8,7 +8,7 @@ import {
 import Page from "./page.component";
 import Feature from "./Feature/Feature";
 import Header from "./header/Header";
-import evenementen_intro from "./Events/evenementen_intro"
+import evenementen_intro from "./Events/evenementen_intro";
  
 const components = {
   page: Page,

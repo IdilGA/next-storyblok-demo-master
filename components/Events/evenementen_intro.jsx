@@ -4,7 +4,6 @@ import "./evenementen_intro.css";
 
 const Evenementen_Intro = ({ blok }) => (
   <div className="evenementen_intro" {...storyblokEditable(blok)}>
-    Hallo Luc
     <div className="evenement_afbeelding_container">
       <img
         className="evenement_afbeelding"
