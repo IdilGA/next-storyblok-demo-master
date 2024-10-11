@@ -1,6 +1,6 @@
 import { storyblokEditable } from "@storyblok/react/rsc";
 import { render } from "storyblok-rich-text-react-renderer";
-import "./evenementen_intro.css";
+import "./evenementen.css";
 
 const EvenementenIntro = ({ blok }) => (
   <div className="evenementen_intro" {...storyblokEditable(blok)}>
