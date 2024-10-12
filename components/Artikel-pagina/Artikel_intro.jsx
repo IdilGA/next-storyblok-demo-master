@@ -1,5 +1,11 @@
 import { storyblokEditable } from "@storyblok/react/rsc";
 import "./artikel_intro.css";
+// import { Noto_Sans } from 'next/font/google';
+
+// const notoSans = Noto_Sans({
+//   subsets: ['latin'], // specificeer de taal
+//   weight: ['700'], // gebruik de bold versie van het lettertype
+// });
  
 const artikel_intro = ({ blok }) => (
   <div className="Artikel_Intro" {...storyblokEditable(blok)}>
@@ -9,7 +15,9 @@ const artikel_intro = ({ blok }) => (
                 src={blok.artikel_lijn.filename}
                 alt={blok.artikel_lijn || "servicephoto"}
     />
-    <p className="Artikel_Titel">{blok.artikel_inleiding}</p>
+    <div className="inleiding-layout">
+    <p className="Artikel_inleiding">{blok.artikel_inleiding}</p>
+    </div>
   </div>
 );
  

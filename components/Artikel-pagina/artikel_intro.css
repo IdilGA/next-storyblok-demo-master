@@ -1,7 +1,27 @@
-.Artikel_Titel{
+.Artikel_Intro {
+  display: flex;
+  flex-direction: column; /* Zorg ervoor dat de elementen onder elkaar komen */
+  justify-content: center; /* Centreer verticaal */
+  align-items: center; /* Centreer horizontaal */
+  text-align: center; /* Optioneel, om de tekst ook gecentreerd uit te lijnen */
+  margin-top: 70px;
+}
+
+.Artikel_Titel {
+  font-size: 24px;
+  font-weight: bold;
+}
+.Artikel_lijn {
+  margin: 20px 0; /* Voeg wat ruimte rond de lijn toe */
+}
+
+.inleiding-layout {
+  width: 100vw;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  font-size: larger;
+}
+
+.Artikel_inleiding {
+  width: 700px;
 }
 

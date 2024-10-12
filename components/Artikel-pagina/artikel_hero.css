@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Verberg horizontale scrollbars als er elementen buiten de viewport gaan */
+  width: 100%;
+}
+
+.Hero_container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  overflow: hidden; /* Voeg dit toe om te voorkomen dat elementen buiten de container zichtbaar zijn */
+}
+
+.Masked_Image {
+  max-width: 100%; /* Zorg ervoor dat de afbeelding niet breder wordt dan de container */
+  height: auto; /* Houd de verhoudingen van de afbeelding intact */
+}
