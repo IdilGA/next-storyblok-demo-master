@@ -12,6 +12,7 @@ import evenementen_intro from "./Events/evenementen_intro";
 import artikel_intro from "./Artikel-pagina/Artikel_intro";
 import Artikel_Hero from "./Artikel-pagina/Artikel_Hero";
 import Artikel_info from "./Artikel-pagina/Artikel_info";
+import Artikel_Paragraaf from "./Artikel-pagina/Artikel_Paragraaf";
  
 const components = {
   page: Page,
@@ -21,6 +22,7 @@ const components = {
   artikel_intro : artikel_intro,
   Artikel_Hero : Artikel_Hero,
   Artikel_info : Artikel_info,
+  Artikel_Paragraaf : Artikel_Paragraaf,
 };
  
 storyblokInit({

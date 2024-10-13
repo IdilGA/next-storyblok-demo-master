@@ -1,11 +1,6 @@
 import { storyblokEditable } from "@storyblok/react/rsc";
 import "./artikel_intro.css";
-// import { Noto_Sans } from 'next/font/google';
 
-// const notoSans = Noto_Sans({
-//   subsets: ['latin'], // specificeer de taal
-//   weight: ['700'], // gebruik de bold versie van het lettertype
-// });
  
 const artikel_intro = ({ blok }) => (
   <div className="Artikel_Intro" {...storyblokEditable(blok)}>
