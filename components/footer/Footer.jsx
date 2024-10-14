@@ -1,7 +1,7 @@
-import { storyblokEditable } from "@storyblok/react/rsc";
-import "./footer.css";
+import React from "react";
+import "./Footer.css"; // Verwijst naar je eigen CSS-styling
 
-const Footer = ({ blok }) => {
+const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -9,14 +9,21 @@ const Footer = ({ blok }) => {
         <div className="footer-section">
           <h3 className="footer-heading">TrendFocus</h3>
           <ul>
-            {blok.trendfocus_links.map((link) => (
-              <li key={link._uid}>
-                {/* Link Tekst en URL uit Storyblok multi-options */}
-                <a href={link.link.url} className="footer-link">
-                  {link.text}
-                </a>
-              </li>
-            ))}
+            <li>
+              <a href="/about-us" className="footer-link">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="/privacy-policy" className="footer-link">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="/terms-of-service" className="footer-link">
+                Terms of Service
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -24,14 +31,21 @@ const Footer = ({ blok }) => {
         <div className="footer-section">
           <h3 className="footer-heading">My TrendFocus</h3>
           <ul>
-            {blok.mytrendfocus_links.map((link) => (
-              <li key={link._uid}>
-                {/* Link Tekst en URL uit Storyblok multi-options */}
-                <a href={link.link.url} className="footer-link">
-                  {link.text}
-                </a>
-              </li>
-            ))}
+            <li>
+              <a href="/login" className="footer-link">
+                Login
+              </a>
+            </li>
+            <li>
+              <a href="/my-subscription" className="footer-link">
+                My Subscription
+              </a>
+            </li>
+            <li>
+              <a href="/account-settings" className="footer-link">
+                Account Settings
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -39,14 +53,21 @@ const Footer = ({ blok }) => {
         <div className="footer-section">
           <h3 className="footer-heading">Contact</h3>
           <ul>
-            {blok.contact_links.map((link) => (
-              <li key={link._uid}>
-                {/* Link Tekst en URL uit Storyblok multi-options */}
-                <a href={link.link.url} className="footer-link">
-                  {link.text}
-                </a>
-              </li>
-            ))}
+            <li>
+              <a href="/customer-service" className="footer-link">
+                Customer Service
+              </a>
+            </li>
+            <li>
+              <a href="/editorial-team" className="footer-link">
+                Editorial Team
+              </a>
+            </li>
+            <li>
+              <a href="/contact" className="footer-link">
+                Contact Form
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -54,31 +75,20 @@ const Footer = ({ blok }) => {
         <div className="footer-section">
           <h3 className="footer-heading">Follow Us</h3>
           <div className="social-icons">
-            {blok.social_media.map((icon) => (
-              <a key={icon._uid} href={icon.link.url} className="social-icon">
-                {/* Social Media Icon en URL uit Storyblok multi-assets */}
-                <img src={icon.image.filename} alt={icon.image.alt} />
-              </a>
-            ))}
+            <a href="https://facebook.com" className="social-icon">
+              <img src="/path-to-facebook-icon.png" alt="Facebook" />
+            </a>
+            <a href="https://twitter.com" className="social-icon">
+              <img src="/path-to-twitter-icon.png" alt="Twitter" />
+            </a>
+            <a href="https://linkedin.com" className="social-icon">
+              <img src="/path-to-linkedin-icon.png" alt="LinkedIn" />
+            </a>
+            <a href="https://instagram.com" className="social-icon">
+              <img src="/path-to-instagram-icon.png" alt="Instagram" />
+            </a>
           </div>
         </div>
-      </div>
-
-      {/* Contactformulier */}
-      <div className="footer-contactform">
-        <h3 className="footer-heading">Contactformulier</h3>
-        <form className="contact-form">
-          <input type="text" placeholder="Naam" className="form-input" />
-          <input
-            type="email"
-            placeholder="E-mailadres"
-            className="form-input"
-          />
-          <textarea placeholder="Bericht" className="form-textarea"></textarea>
-          <button type="submit" className="form-button">
-            Verzenden
-          </button>
-        </form>
       </div>
 
       {/* Hardcoded footer-bottom */}
