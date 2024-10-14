@@ -5,7 +5,7 @@ import "./artikel_intro.css";
 
  
 const artikel_intro = ({ blok }) => (
-  <div className="Artikel_Intro" {...storyblokEditable(blok)}>
+  <div className="Artikel_Intro dark" {...storyblokEditable(blok)}>
     <p className="Artikel_Titel">{blok.artikel_titel}</p>
     <img
                 className="Artikel_lijn"
@@ -13,7 +13,7 @@ const artikel_intro = ({ blok }) => (
                 alt={blok.artikel_lijn || "servicephoto"}
     />
     <div className="inleiding-layout">
-    <p className="Artikel_inleiding">{blok.artikel_inleiding}</p>
+    <p className="Artikel_inleiding ">{blok.artikel_inleiding}</p>
     </div>
   </div>
 );
