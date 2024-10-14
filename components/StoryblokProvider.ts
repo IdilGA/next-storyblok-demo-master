@@ -16,6 +16,7 @@ import Artikel_Paragraaf from "./Artikel-pagina/Artikel_Paragraaf";
 import Artikel_Quote from "./Artikel-pagina/Artikel_Quote";
 import Advertentie from "./Artikel-pagina/Advertentie";
 import Artikel_Plaatsreactie from "./Artikel-pagina/Artikel_Plaatsreactie";
+import Artikel_socialmedia from "./Artikel-pagina/Artikel_socialmedia";
  
 const components = {
   page: Page,
@@ -29,6 +30,7 @@ const components = {
   Artikel_Quote : Artikel_Quote,
   Advertentie : Advertentie,
   Artikel_Plaatsreactie : Artikel_Plaatsreactie,
+  Artikel_socialmedia : Artikel_socialmedia,
 };
  
 storyblokInit({
