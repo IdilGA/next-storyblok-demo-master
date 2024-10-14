@@ -10,23 +10,24 @@ import "./artikel_socialmedia.css";
 
 
 const Artikel_socialmedia = ({ blok }) => (
-  <div className="Plaatsreactie_Layout" {...storyblokEditable(blok)}>
-    <div>
+  <div className="socialmedia_layout" {...storyblokEditable(blok)}>
+    <h1>{blok.socialmedia_titel}</h1>
+    <div className="socialmedia_container">
     <img
-        src={blok.Luisteren_icon.filename}
-        style={{ width: '21px' }}
+        src={blok.X_icon.filename}
+        style={{ width: '35px' }}
       />
       <img
-        src={blok.Luisteren_icon.filename}
-        style={{ width: '21px' }}
+        src={blok.Instagram_icon.filename}
+        style={{ width: '35px' }}
       />
       <img
-        src={blok.Luisteren_icon.filename}
-        style={{ width: '21px' }}
+        src={blok.Facebook_icon.filename}
+        style={{ width: '35px' }}
       />
       <img
-        src={blok.Luisteren_icon.filename}
-        style={{ width: '21px' }}
+        src={blok.Linkedin_icon.filename}
+        style={{ width: '35px' }}
       />
     </div>
 

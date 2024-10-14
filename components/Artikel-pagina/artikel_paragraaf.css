@@ -6,6 +6,11 @@
   flex-direction: column;
 }
 
+.paragraaf_header::before {
+  content: url('./images/Rectangle\ 7.png');
+  height: 20px;
+}
+
 
 .Artikel_alinea {
   text-align: left;
