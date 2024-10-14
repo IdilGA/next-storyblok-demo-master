@@ -9,12 +9,14 @@ import Page from "./page.component";
 import Feature from "./Feature/Feature";
 import Header from "./header/Header";
 import evenementen_intro from "./Events/evenementen_intro";
+import Nieuws_Header from "./nieuwspagina/Nieuws_Header";
  
 const components = {
   page: Page,
   feature: Feature,
   header: Header,
   evenementen_intro: evenementen_intro,
+  Nieuws_Header : Nieuws_Header,
 };
  
 storyblokInit({
