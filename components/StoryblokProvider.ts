@@ -18,12 +18,15 @@ import Advertentie from "./Artikel-pagina/Advertentie";
 import Artikel_Plaatsreactie from "./Artikel-pagina/Artikel_Plaatsreactie";
 import Artikel_socialmedia from "./Artikel-pagina/Artikel_socialmedia";
 import Artikel_leesverder from "./Artikel-pagina/Artikel_leesverder";
+import Interviews_Intro from "./interviews-pagina/interviews_intro";
+import Interview_headline from "./interviews-pagina/Interview_headline";
  
 const components = {
   page: Page,
   feature: Feature,
   header: Header,
   evenementen_intro: evenementen_intro,
+
   artikel_intro : artikel_intro,
   Artikel_Hero : Artikel_Hero,
   Artikel_info : Artikel_info,
@@ -33,6 +36,10 @@ const components = {
   Artikel_Plaatsreactie : Artikel_Plaatsreactie,
   Artikel_socialmedia : Artikel_socialmedia,
   Artikel_leesverder : Artikel_leesverder,
+
+  Interviews_Intro : Interviews_Intro,
+  Interview_headline : Interview_headline,
+
 };
  
 storyblokInit({
