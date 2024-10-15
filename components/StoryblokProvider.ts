@@ -20,6 +20,7 @@ import Artikel_socialmedia from "./Artikel-pagina/Artikel_socialmedia";
 import Artikel_leesverder from "./Artikel-pagina/Artikel_leesverder";
 import Interviews_Intro from "./interviews-pagina/interviews_intro";
 import Interview_headline from "./interviews-pagina/Interview_headline";
+import Interviews_verzameling from "./interviews-pagina/Interviews_verzameling";
  
 const components = {
   page: Page,
@@ -39,6 +40,7 @@ const components = {
 
   Interviews_Intro : Interviews_Intro,
   Interview_headline : Interview_headline,
+  Interviews_verzameling : Interviews_verzameling,
 
 };
  

@@ -18,7 +18,14 @@ const Interview_headline = ({ blok }) => (
       />
     <div className=" h-[100px] flex flex-col justify-between">
       <div className="headline_quote">{render(blok.headline_quote)}</div>
-      <div className="flex justify-end">
+      <div className="flex justify-between">
+        <div className="flex flex-row">
+        <img
+        src={blok.info_point_oranje.filename}
+        style={{ width: '21px', height: '21px' }}
+      />
+      <p>{blok.Artikel_Datum}</p>
+        </div>
         <button className="interview_button">Lees verder</button>
       </div>
     </div>
