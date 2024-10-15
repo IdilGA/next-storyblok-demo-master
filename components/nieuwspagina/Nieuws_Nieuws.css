@@ -1,1 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+.Nieuws_Nieuws {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.Nieuws_Afbeelding {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 175px;
+}
+
+.Nieuws_Artikeltitel {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-weight:  bold;
+    margin-left: 50px;
+    max-width: 150px;
+}

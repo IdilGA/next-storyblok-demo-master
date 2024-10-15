@@ -10,6 +10,10 @@ import Feature from "./Feature/Feature";
 import Header from "./header/Header";
 import evenementen_intro from "./Events/evenementen_intro";
 import Nieuws_Header from "./nieuwspagina/Nieuws_Header";
+import Nieuws_Nieuws from "./nieuwspagina/Nieuws_Nieuws";
+import Nieuws_Lijn from "./nieuwspagina/Nieuws_Lijn";
+import Nieuws_Interviews from "./nieuwspagina/Nieuws_Interviews";
+import Nieuws_Advertentie from "./nieuwspagina/Nieuws_Advertentie";
  
 const components = {
   page: Page,
@@ -17,6 +21,10 @@ const components = {
   header: Header,
   evenementen_intro: evenementen_intro,
   Nieuws_Header : Nieuws_Header,
+  Nieuws_Nieuws : Nieuws_Nieuws,
+  Nieuws_Lijn : Nieuws_Lijn,
+  Nieuws_Interviews : Nieuws_Interviews,
+  Nieuws_Advertentie : Nieuws_Advertentie,
 };
  
 storyblokInit({

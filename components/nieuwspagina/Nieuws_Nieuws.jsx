@@ -3,7 +3,8 @@ import "./Nieuws_Nieuws.css";
  
 const Nieuws_Nieuws = ({ blok }) => (
   <div className="Nieuws_Nieuws" {...storyblokEditable(blok)}>
-    <h1 className="Nieuws_Afbeelding">{blok.Nieuws_Titel}</h1>
+      <img className="Nieuws_Afbeelding" src={blok.Nieuws_Afbeelding.filename}/>
+      <h1 className="Nieuws_Artikeltitel">{blok.Nieuws_Artikeltitel}</h1>
   </div>
 );
  
