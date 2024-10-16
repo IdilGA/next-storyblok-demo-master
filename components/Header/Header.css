@@ -1,7 +1,8 @@
 .header {
-  background-color: #00264d;
+  background-color: #22252A;
   padding: 20px;
   text-align: center;
+font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .logo-container {
@@ -18,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #22252A;
   padding: 10px 20px;
 }
 

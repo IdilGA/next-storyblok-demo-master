@@ -1,15 +1,20 @@
 import { storyblokEditable } from "@storyblok/react/rsc";
-import "./Header.css"; // Vergeet niet de styling te importeren
+import "./Header.css";
 
 const Header = ({ blok }) => {
   return (
     <header className="header">
       {/* Dynamisch logo van Storyblok */}
-      <div className="logo-container" {...storyblokEditable(blok)}>
+      <div
+        className="logo-container flex justify-start"
+        {...storyblokEditable(blok)}
+      >
         <img src={blok.logo.filename} alt={blok.logo.alt} className="logo" />
       </div>
       <ul className="flex flex-row text-white gap-20">
-        <li>Home</li>
+        <a href="home">
+          <li>Home</li>
+        </a>
         <a href="/nieuws">
           <li>Nieuws</li>
         </a>

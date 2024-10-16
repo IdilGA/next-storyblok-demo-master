@@ -1,3 +1,71 @@
 .footer {
-    background-color: #22252a;
+  background-color: #22252A;
+  color: white;
+  padding: 40px 0;
+  text-align: left;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.footer-container {
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Zorgt voor 3 gelijke kolommen */
+    gap: 40px;
+    /* Ruimte tussen de kolommen */
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #FFA500;
+}
+
+/* Flexbox voor teksten */
+ul {
+  list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-text {
+  color: white;
+  font-size: 13px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.footer-text:hover {
+  color: #FFA500;
+  /* Optioneel hover-effect */
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon-image {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icon-image:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #A0AEC0;
 }
