@@ -4,22 +4,21 @@ import "./Header.css"; // Vergeet niet je CSS-bestand te importeren
 const Header = ({ blok }) => {
   return (
     <header className="header">
-      {/* Logo sectie met witte achtergrond */}
+      {/* Logo sectie */}
       <div className="logo-container" {...storyblokEditable(blok)}>
         <img src={blok.logo.filename} alt={blok.logo.alt} className="logo" />
       </div>
 
-      {/* Registreren en Inloggen knoppen */}
-      <div className="auth-buttons">
-        <a href="/register" className="px-4 py-1 bg-blue-400 text-white -full">
-          Registreren
-        </a>
-        <a
-          href="/login"
-          className="px-4 py-1 bg-red-400 text-white rounded-full"
-        >
-          Inloggen
-        </a>
+      {/* Auth-buttons container boven de navigatiebalk */}
+      <div className="auth-buttons-container">
+        <div className="auth-buttons">
+          <a href={blok.register_link.url} className="auth-button bg-blue-400">
+            {blok.register_text}
+          </a>
+          <a href={blok.login_link.url} className="auth-button bg-red-400">
+            {blok.login_text}
+          </a>
+        </div>
       </div>
 
       {/* Navigatiebalk */}

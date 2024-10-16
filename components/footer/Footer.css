@@ -1,65 +1,83 @@
 .footer {
   background-color: #22252A;
   color: white;
-  padding: 40px 0;
-  text-align: left;
+  padding: 40px 20px;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .footer-container {
-  display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* Zorgt voor 3 gelijke kolommen */
-    gap: 40px;
-    /* Ruimte tussen de kolommen */
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0  ;
+  padding: 0;
+  
+}
+
+.logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 40px;
+}
+
+.footer-logo {
+  height: 30px;
+  /* Iets grotere logo voor betere zichtbaarheid */
+}
+
+.footer-sections {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  gap: 40px;
+  /* Meer ruimte tussen de secties voor betere leesbaarheid */
 }
 
 .footer-section {
-  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .footer-heading {
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: bold;
   color: #FFA500;
 }
 
-/* Flexbox voor teksten */
-ul {
-  list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 .footer-text {
   color: white;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: lighter;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+
 }
 
 .footer-text:hover {
   color: #FFA500;
-  /* Optioneel hover-effect */
+  transition: color 0.3s ease;
+  /* Nettere overgang bij hover */
 }
 
+.footer-social {
+  margin-top: 20px;
+  text-align: left;
+}
 
 .social-icons {
   display: flex;
+  justify-content: flex-start;
   gap: 10px;
 }
 
-.social-icon-image {
+.social-icon {
   width: 24px;
   height: 24px;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
-.social-icon-image:hover {
+.social-icon:hover {
   transform: scale(1.1);
 }
 
@@ -68,4 +86,29 @@ ul {
   text-align: center;
   font-size: 14px;
   color: #A0AEC0;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    /* Iets minder padding op kleinere schermen */
+  }
+
+  .footer-sections {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* Iets minder ruimte tussen secties op mobiel */
+  }
+
+  .footer-social {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
 }
