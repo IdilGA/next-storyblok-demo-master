@@ -16,7 +16,7 @@ const Header = ({ blok }) => {
         <a href="interviews">
           <li>Interviews</li>
         </a>
-        <a href="artikelen">
+        <a href="artikelen-pagina">
           <li>Artikelen</li>
         </a>
         <a href="evenementen-webinars">

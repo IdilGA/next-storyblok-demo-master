@@ -21,6 +21,7 @@ import Artikel_leesverder from "./Artikel-pagina/Artikel_leesverder";
 import Interviews_Intro from "./interviews-pagina/interviews_intro";
 import Interview_headline from "./interviews-pagina/Interview_headline";
 import Interviews_verzameling from "./interviews-pagina/Interviews_verzameling";
+import Netbinnen_sidebar from "./interviews-pagina/Netbinnen_sidebar";
  
 const components = {
   page: Page,
@@ -40,6 +41,7 @@ const components = {
 
   Interviews_Intro : Interviews_Intro,
   Interview_headline : Interview_headline,
+  Netbinnen_sidebar : Netbinnen_sidebar,
   Interviews_verzameling : Interviews_verzameling,
 
 };

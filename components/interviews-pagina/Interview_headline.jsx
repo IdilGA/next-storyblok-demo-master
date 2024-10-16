@@ -26,7 +26,7 @@ const Interview_headline = ({ blok }) => (
       />
       <p>{blok.Artikel_Datum}</p>
         </div>
-        <button className="interview_button">Lees verder</button>
+        <button className="interview_button"> <a href="artikelen">Lees verder</a></button>
       </div>
     </div>
 </div>
