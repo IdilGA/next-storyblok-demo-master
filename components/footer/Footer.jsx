@@ -8,7 +8,7 @@ const Footer = ({ blok }) => {
         {/* TrendFocus Links Sectie */}
         <div className="footer-section" {...storyblokEditable(blok)}>
           <h3 className="footer-heading">TrendFocus</h3>
-          <ul className="flex flex-row text-white gap-20">
+          <ul>
             <li className="footer-text">Over ons</li>
             <li className="footer-text">Werken bij</li>
             <li className="footer-text">Auteursrecht</li>
@@ -21,7 +21,7 @@ const Footer = ({ blok }) => {
         {/* My TrendFocus Links Sectie */}
         <div className="footer-section" {...storyblokEditable(blok)}>
           <h3 className="footer-heading">My TrendFocus</h3>
-          <ul className="flex flex-row text-white gap-20">
+          <ul>
             <li className="footer-text">Word abonnee</li>
             <li className="footer-text">Inloggen</li>
             <li className="footer-text">Account aanmaken</li>
@@ -36,7 +36,7 @@ const Footer = ({ blok }) => {
         {/* Contact Links Sectie */}
         <div className="footer-section" {...storyblokEditable(blok)}>
           <h3 className="footer-heading">Contact</h3>
-          <ul className="flex flex-row text-white gap-20">
+          <ul>
             <li className="footer-text">Redactie</li>
             <li className="footer-text">Opinieredactie</li>
             <li className="footer-text">Klantenservice</li>
@@ -47,23 +47,34 @@ const Footer = ({ blok }) => {
         {/* Social Media Sectie */}
         <div className="footer-section" {...storyblokEditable(blok)}>
           <h3 className="footer-heading">Follow Us</h3>
-          <div className="flex flex-row gap-5">
-            {/* Controleer of social_media een array is voordat je .map() aanroept */}
-            {Array.isArray(blok.social_media) &&
-            blok.social_media.length > 0 ? (
-              blok.social_media.map((social, index) => (
-                <div key={index} className="social-icon">
-                  {social.icon && (
-                    <img
-                      src={social.icon.filename}
-                      alt={social.icon.alt || "Social Media Icon"}
-                      className="social-icon-image"
-                    />
-                  )}
-                </div>
-              ))
-            ) : (
-              <p>No social media links available</p>
+          <div className="social-icons">
+            {blok.social_media && (
+              <img
+                src={blok.social_media.filename}
+                alt={blok.social_media.alt || "Social Media Icon"}
+                className="social-icon-image"
+              />
+            )}
+            {blok.social_media1 && (
+              <img
+                src={blok.social_media1.filename}
+                alt={blok.social_media1.alt || "Social Media Icon"}
+                className="social-icon-image"
+              />
+            )}
+            {blok.social_media2 && (
+              <img
+                src={blok.social_media2.filename}
+                alt={blok.social_media2.alt || "Social Media Icon"}
+                className="social-icon-image"
+              />
+            )}
+            {blok.social_media3 && (
+              <img
+                src={blok.social_media3.filename}
+                alt={blok.social_media3.alt || "Social Media Icon"}
+                className="social-icon-image"
+              />
             )}
           </div>
         </div>
