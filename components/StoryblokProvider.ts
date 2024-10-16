@@ -22,6 +22,9 @@ import Interviews_Intro from "./interviews-pagina/interviews_intro";
 import Interview_headline from "./interviews-pagina/Interview_headline";
 import Interviews_verzameling from "./interviews-pagina/Interviews_verzameling";
 import Netbinnen_sidebar from "./interviews-pagina/Netbinnen_sidebar";
+import Artikelen_header from "./Artikelen-pagina/Artikelen_header";
+import Artikelen_headline from "./Artikelen-pagina/Artikelen_headline"
+import Artikelen_Secondary from "./Artikelen-pagina/Artikelen_Secondary";
  
 const components = {
   page: Page,
@@ -43,6 +46,10 @@ const components = {
   Interview_headline : Interview_headline,
   Netbinnen_sidebar : Netbinnen_sidebar,
   Interviews_verzameling : Interviews_verzameling,
+
+  Artikelen_header : Artikelen_header,
+  Artikelen_headline : Artikelen_headline,
+  Artikelen_Secondary : Artikelen_Secondary,
 
 };
  
