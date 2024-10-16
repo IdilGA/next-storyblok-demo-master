@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
 
+.pagina_titel{
+  margin-top: 5rem;
+  margin-left: 30px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.intro_tekst{
+  color: #76A5B9;
+}
 
 .evenement_afbeelding_container {
-  position: relative;
   width: 100%;
-  margin-top: clamp(1.2rem, 6vw, 10rem);
+  margin-top: clamp(1.2rem, 6vw,1rem);
 }
 
 .evenement_afbeelding {
   width: 100%;
   height: auto;
-}
-
-.evenement_tekst {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: clamp(1.2rem, 6vw, 10rem);
-  text-align: center;
-  padding: 1rem;
-  border-radius: 5px;
 }
 
 .evenement_buttons {
@@ -44,7 +42,7 @@
   text-decoration: none;
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
-  transition: background-color 0.3s ease;
+  transition: 0.4s;
   flex: 1;
   max-width: 225px;
   min-width: 150px;
@@ -54,11 +52,25 @@
 
 .button_1 {
   border: 2px solid white;
+  cursor: pointer;
 }
 
 .button_2 {
   background-color: #FBC237;
+  cursor: pointer;
 }
+
+.button_1:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.button_2:hover {
+  background-color: #ffffff;
+  color: #000000; 
+}
+
+
 
 @media (max-width: 768px) {
   .evenement_buttons {

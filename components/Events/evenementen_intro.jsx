@@ -34,13 +34,20 @@ const Evenementen_Intro = ({ blok }) => {
 
   return (
     <div className="evenementen_intro" {...storyblokEditable(blok)}>
+
+    <h1 className="pagina_titel">{blok.pagina_titel}</h1>
+
       <div className="evenement_afbeelding_container">
+        
         <img
           className="evenement_afbeelding"
           src={blok.intro_afbeelding?.filename}
           alt={blok.intro_afbeelding?.alt || "Card One Image"}
+          
         />
-        <div className="evenement_tekst">{render(blok.intro_tekst)}</div>
+
+        
+        
         <div className="evenement_buttons">
           <a href={blok.button_1_url} className="evenement_button button_1">
             {blok.button1_text}
