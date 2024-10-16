@@ -2,8 +2,9 @@
 
 .Nieuws_Nieuws {
     display: flex;
-    width: 100%;
+    width: 20%;
     flex-direction: column;
+    float: left;
 }
 
 .Nieuws_Afbeelding {
