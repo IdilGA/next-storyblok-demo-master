@@ -1,8 +1,12 @@
 .header {
+  font-family: 'IBM Plex Sans', sans-serif;
   background-color: #22252A;
-  padding: 20px;
-  text-align: center;
-font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
 }
 
 .logo-container {
@@ -12,8 +16,10 @@ font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .logo {
-  height: 60px;
+  height: 50px;
 }
+
+/* Navigatiebalk ronde hoeken */
 
 .nav-bar {
   display: flex;
@@ -21,6 +27,13 @@ font-family: 'IBM Plex Sans', sans-serif;
   align-items: center;
   background-color: #22252A;
   padding: 10px 20px;
+
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.nav-item:first-child {
+  margin-left: 30px;
 }
 
 .nav-list {
@@ -29,6 +42,7 @@ font-family: 'IBM Plex Sans', sans-serif;
   gap: 20px;
   margin: 0;
   padding: 0;
+  margin-left: 20px;
 }
 
 .nav-item {
@@ -48,10 +62,17 @@ font-family: 'IBM Plex Sans', sans-serif;
 
 .search-bar {
   margin-left: auto;
+  margin-right: 20px;
 }
 
 .search-input {
   padding: 5px;
   border-radius: 5px;
   border: none;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.search-input::placeholder {
+  color: #999;
 }
