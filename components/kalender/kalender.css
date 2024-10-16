@@ -1,0 +1,71 @@
+.kalender {
+    text-align: left; /* Uitlijning links voor de inhoud */
+    margin: 20px;
+    margin-left: 10rem;
+  }
+  
+  .kalender_titel {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .filter_button {
+    background-color: #76A5B9; /* Kleur van de knop */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center; /* Zorgt ervoor dat tekst en icoon uitgelijnd zijn */
+  }
+  
+  .filter_button:hover {
+    background-color: #F46D47; /* Kleur bij hover */
+  }
+  
+  .filters {
+    margin-top: 20px;
+  }
+  
+  .filters label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .filters input,
+  .filters select {
+    padding: 8px;
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+  
+  .events {
+    margin-top: 20px;
+  }
+  
+  .events p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .image-block {
+    display: flex; /* Zorgt ervoor dat de twee afbeeldingen naast elkaar staan */
+    justify-content: space-between;
+    width: 100%; /* Zorgt ervoor dat de afbeeldingen zich uitstrekken over de volledige breedte */
+  }
+  
+  .image-block img {
+    width: 48%; /* Zorgt ervoor dat elke afbeelding 48% van de ruimte inneemt */
+    height: auto;
+  }
+  
