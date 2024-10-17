@@ -36,7 +36,7 @@ import Artikelen_Secondary from "./Artikelen-pagina/Artikelen_Secondary";
 import Interview_layout from "./interview_layout/Interview_layout";
 import Container from "./container/Container";
 import Netbinnen_header from "./interviews-pagina/Netbinnen_Header";
-
+)
  
 const components = {
   page: Page,
@@ -47,10 +47,12 @@ const components = {
   Nieuws_Header : Nieuws_Header,
   footer: footer,
 
+
   kalender: kalender,
   slide: slide,
   carrousel : carrousel,
   
+
 
   artikel_intro : artikel_intro,
   Artikel_Hero : Artikel_Hero,
@@ -74,6 +76,7 @@ const components = {
   container: Container,
   interview_layout: Interview_layout,
   Netbinnen_header: Netbinnen_header,
+
 
 };
  
