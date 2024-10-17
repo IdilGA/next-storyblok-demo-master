@@ -36,6 +36,10 @@ import Interview_layout from "./interview_layout/Interview_layout";
 import Container from "./container/Container";
 import Netbinnen_header from "./interviews-pagina/Netbinnen_Header";
 
+import Nieuws_Nieuws from "./nieuwspagina/Nieuws_Nieuws";
+import Nieuws_Lijn from "./nieuwspagina/Nieuws_Lijn";
+import Nieuws_Interviews from "./nieuwspagina/Nieuws_Interviews";
+import Nieuws_Advertentie from "./nieuwspagina/Nieuws_Advertentie";
  
 const components = {
   page: Page,
@@ -65,7 +69,6 @@ const components = {
 
   interviews_intro : Interviews_intro,
   Interview_headline : Interview_headline,
-  netbinnen_sidebar : Netbinnen_sidebar,
   Interviews_verzameling : Interviews_verzameling,
 
   Artikelen_header : Artikelen_header,
@@ -77,6 +80,11 @@ const components = {
   Netbinnen_header: Netbinnen_header,
 
 
+  Nieuws_Nieuws : Nieuws_Nieuws,
+  Nieuws_Lijn : Nieuws_Lijn,
+  Nieuws_Interviews : Nieuws_Interviews,
+  Nieuws_Advertentie : Nieuws_Advertentie,
+  Netbinnen_sidebar : Netbinnen_sidebar,
 };
  
 storyblokInit({
