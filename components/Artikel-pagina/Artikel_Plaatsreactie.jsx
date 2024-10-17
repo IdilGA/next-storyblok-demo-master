@@ -5,7 +5,7 @@ import "./artikel_plaatsreactie.css";
 const Artikel_Plaatsreactie = ({ blok }) => (
   <div className="Plaatsreactie_Layout" {...storyblokEditable(blok)}>
     <div className="Plaatsreactie_container">
-      <div>
+      <div className="mb-10 mt-10 font-bold text-[30px] flex justify-center">
         <h1>{blok.Plaatsreactie_Titel}</h1>
       </div>
     <div className="input_container">
@@ -16,7 +16,7 @@ const Artikel_Plaatsreactie = ({ blok }) => (
     </form>
       </div>
     <div>
-    <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here"></textarea>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Uw reactie..."></textarea>
     </div>
     </div>
     <div className="button_container">

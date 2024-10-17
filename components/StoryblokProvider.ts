@@ -32,7 +32,10 @@ import Artikelen_Secondary from "./Artikelen-pagina/Artikelen_Secondary";
 import Interview_layout from "./interview_layout/Interview_layout";
 import Container from "./container/Container";
 import Netbinnen_header from "./interviews-pagina/Netbinnen_Header";
-import artikel_landscape from "./artikel_landscape";
+import artikel_landscape from "./artikel_landscape/artikel_landscape";
+import artikelen_onder_layout from "./artikelen_onder_layout/artikelen_onder_layout"
+import artikelen_links_layout from "./artikelen_links_layout/artikelen_links_layout";
+import netbinnen_sidebar from "./interviews-pagina/Netbinnen_sidebar";
 
 import Nieuws_Nieuws from "./nieuwspagina/Nieuws_Nieuws";
 import Nieuws_Lijn from "./nieuwspagina/Nieuws_Lijn";
@@ -71,7 +74,7 @@ const components = {
   Artikelen_header : Artikelen_header,
   Artikelen_headline : Artikelen_headline,
   Artikelen_Secondary : Artikelen_Secondary,
-  artikel_landscape : artikel_landscape,
+  
 
   container: Container,
   interview_layout: Interview_layout,
@@ -83,6 +86,11 @@ const components = {
   Nieuws_Interviews : Nieuws_Interviews,
   Nieuws_Advertentie : Nieuws_Advertentie,
   Netbinnen_sidebar : Netbinnen_sidebar,
+
+  // artikel_landscape : artikel_landscape,
+  // artikelen_onder_layout : artikelen_onder_layout,
+  // artikelen_links_layout : artikelen_links_layout,
+  // netbinnen_sidebar : netbinnen_sidebar,
 };
  
 storyblokInit({
