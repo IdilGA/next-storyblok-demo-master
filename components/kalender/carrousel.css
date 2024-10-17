@@ -1,0 +1,76 @@
+.maand {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+
+.blok {
+    position: relative; /* Maak het blok de referentie voor absolute positionering */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.blok2 {
+    position: relative; /* Maak het blok de referentie voor absolute positionering */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textvak, .textvak2 {
+    max-width: 100%;
+    display: block;
+    position: relative; /* Zorg ervoor dat de afbeelding zijn positie behoudt */
+}
+
+p {
+    position: absolute; /* Zet de paragraaf bovenop de textvak-afbeelding */
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centreert de tekst binnen het textvak */
+    width: 80%; /* Houdt de tekst binnen de grenzen van de afbeelding */
+    text-align: center;
+    margin-top: 3rem;
+    color: rgb(255, 255, 255); /* Tekstkleur aanpassen op basis van het textvak */
+    font-size: 1.2rem;
+    z-index: 10; /* Zorgt ervoor dat de tekst boven de afbeelding staat */
+}
+
+
+.datum {
+    position: absolute; /* Zorgt ervoor dat de datum op de afbeelding verschijnt */
+    left: 2rem; /* Plaatst de datum 10px van de linkerkant */
+    background-color: black; /* Zwarte achtergrond voor contrast */
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    z-index: 10; /* Zorgt ervoor dat de datum boven de afbeelding komt */
+}
+
+.maand2{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 2rem;
+        margin-left: 10rem;
+        margin-top: 8rem;
+    }
+

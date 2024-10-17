@@ -9,17 +9,30 @@ import Page from "./page.component";
 import Feature from "./Feature/Feature";
 import Header from "./header/Header";
 import evenementen_intro from "./Events/evenementen_intro";
+<<<<<<< HEAD
 import Nieuws_Header from "./nieuwspagina/Nieuws_Header";
 import footer from "./footer/Footer";
+=======
+import kalender from "./kalender/kalender";
+import slide from "./kalender/slide";
+import carrousel from "./kalender/carrousel";
+>>>>>>> countdown
  
 const components = {
   page: Page,
   feature: Feature,
   header: Header,
   evenementen_intro: evenementen_intro,
+<<<<<<< HEAD
   Nieuws_Header : Nieuws_Header,
   footer: footer,
 
+=======
+  kalender: kalender,
+  slide: slide,
+  carrousel : carrousel,
+  
+>>>>>>> countdown
 };
  
 storyblokInit({
