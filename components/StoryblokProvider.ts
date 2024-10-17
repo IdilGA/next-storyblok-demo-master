@@ -19,6 +19,7 @@ const components = {
   evenementen_intro: evenementen_intro,
   Nieuws_Header : Nieuws_Header,
   footer: footer,
+
 };
  
 storyblokInit({
