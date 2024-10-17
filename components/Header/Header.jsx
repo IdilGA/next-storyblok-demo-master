@@ -55,7 +55,10 @@ const Header = ({ blok }) => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="/artikelen" className="nav-link hover:text-orange-300">
+            <a
+              href="/artikelen-pagina"
+              className="nav-link hover:text-orange-300"
+            >
               Artikelen
             </a>
           </li>
