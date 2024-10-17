@@ -14,6 +14,7 @@ import Nieuws_Nieuws from "./nieuwspagina/Nieuws_Nieuws";
 import Nieuws_Lijn from "./nieuwspagina/Nieuws_Lijn";
 import Nieuws_Interviews from "./nieuwspagina/Nieuws_Interviews";
 import Nieuws_Advertentie from "./nieuwspagina/Nieuws_Advertentie";
+import Netbinnen_sidebar from "./nieuwspagina/Netbinnen_sidebar";
  
 const components = {
   page: Page,
@@ -25,6 +26,7 @@ const components = {
   Nieuws_Lijn : Nieuws_Lijn,
   Nieuws_Interviews : Nieuws_Interviews,
   Nieuws_Advertentie : Nieuws_Advertentie,
+  Netbinnen_sidebar : Netbinnen_sidebar,
 };
  
 storyblokInit({

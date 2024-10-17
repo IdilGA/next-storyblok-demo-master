@@ -1,0 +1,16 @@
+.interview_button2 {
+    border-radius: 10px 0 10px 0;
+    background-color: #76A5B9;
+    padding: 3px 10px;
+    color: white;
+  }
+
+  .afbeelding-design {
+    border-radius: 10px 0 10px 0;
+  }
+
+  .Netbinnen_sidebar {
+    display: flex;
+    padding-left: 900px;
+    width: 20%;
+  }
