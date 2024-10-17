@@ -16,6 +16,7 @@ const Home: NextPage<Props> = async () => {
   return (
     <div>
 
+     
       <StoryblokStory story={data.story} />
     </div>
   );

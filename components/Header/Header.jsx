@@ -20,6 +20,21 @@ const Header = ({ blok }) => {
           </a>
         </div>
       </div>
+      <ul className="flex flex-row text-white gap-20">
+        <li>Home</li>
+        <a href="/nieuws">
+          <li>Nieuws</li>
+        </a>
+        <a href="interviews">
+          <li>Interviews</li>
+        </a>
+        <a href="artikelen-pagina">
+          <li>Artikelen</li>
+        </a>
+        <a href="evenementen-webinars">
+          <li>Evenementen & webinairs</li>
+        </a>
+      </ul>
 
       {/* Navigatiebalk */}
       <nav className="nav-bar">

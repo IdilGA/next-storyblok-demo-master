@@ -1,0 +1,10 @@
+.Artikel_Quote_container {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.QuoteTekst {
+  font-weight: bold;
+  font-size: 1.3rem;
+}

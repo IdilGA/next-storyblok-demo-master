@@ -1,0 +1,36 @@
+.Artikel_leesverder {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.leesverder_container {
+  /* background-color: red; */
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_onder, .container_boven {
+  display: flex;
+  flex-direction: row;
+  /* background-color: green; */
+  width: 100%;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.leesverder_artikel {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: blue; */
+  width: 50%;
+  align-items: center;
+}
+
+.leesverder_tekst {
+  width: 200px;
+  text-align: left;
+}
