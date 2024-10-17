@@ -1,0 +1,58 @@
+.Naam_input, .Email_input {
+  border: 3px solid  ;
+  border-image: linear-gradient(45deg, #76A5B9, #F56D47) 1;
+  border-radius: 10px 0 10px 0;
+  padding: 3px 5px;
+}
+
+.Plaatsreactie_Layout {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.Plaatsreactie_container {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.input_container {
+  justify-content: space-between;
+}
+#message {
+  border: 3px solid  ;
+  border-image: linear-gradient(45deg, #76A5B9, #F56D47) 1;
+  border-radius: 10px 0 10px 0;
+  padding-left: 3px;
+}
+
+.verstuur_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px 0 10px 0;
+  background-color: #F56D47;
+  padding: 3px 10px;
+  color: white;
+  margin-top: 5px;
+}
+
+.personal_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+}

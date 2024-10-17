@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.Interview_headline {
+  margin-left: 30px;
+  width: 100vw;
+}
+
+.interview_hero {
+  margin: 0;
+}
+
+.interview_hero {
+  border-radius: 10px 0 10px 0;
+}
+
+.headline_quote {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 21px;
+}
+
+.interview_button {
+  border-radius: 10px 0 10px 0;
+  background-color: #76A5B9;
+  padding: 3px 10px;
+  color: white;
+}
