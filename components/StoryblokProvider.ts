@@ -1,5 +1,4 @@
 "use client";
- 
 import {
   storyblokInit,
   apiPlugin,
@@ -36,7 +35,7 @@ import Artikelen_Secondary from "./Artikelen-pagina/Artikelen_Secondary";
 import Interview_layout from "./interview_layout/Interview_layout";
 import Container from "./container/Container";
 import Netbinnen_header from "./interviews-pagina/Netbinnen_Header";
-)
+
  
 const components = {
   page: Page,
