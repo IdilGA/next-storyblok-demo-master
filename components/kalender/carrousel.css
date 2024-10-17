@@ -21,6 +21,7 @@
     gap: 6rem;
     margin-left: 10rem;
     margin-top: 1rem;
+    
 }
 
 .blok {
@@ -43,7 +44,7 @@
     position: relative; /* Zorg ervoor dat de afbeelding zijn positie behoudt */
 }
 
-p {
+.p-text {
     position: absolute; /* Zet de paragraaf bovenop de textvak-afbeelding */
     top: 50%; 
     left: 50%;
@@ -74,3 +75,7 @@ p {
         margin-top: 8rem;
     }
 
+
+    .textvak2{
+        padding-bottom: 10rem;
+    }
