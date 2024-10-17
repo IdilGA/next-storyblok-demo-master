@@ -46,7 +46,9 @@ const Evenementen_Intro = ({ blok }) => {
           
         />
 
-        
+        <div className="intro_tekst">
+          <p>Webinar<br></br> Data-gedreven<br></br> Marketing<br /></p>
+        </div>
         
         <div className="evenement_buttons">
           <a href={blok.button_1_url} className="evenement_button button_1">

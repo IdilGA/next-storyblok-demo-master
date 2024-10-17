@@ -8,8 +8,10 @@
   font-size: 32px;
 }
 
-.intro_tekst{
-  color: #76A5B9;
+.intro_tekst p{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 5rem;
+  margin-top: 10rem;
 }
 
 .evenement_afbeelding_container {
@@ -24,7 +26,7 @@
 
 .evenement_buttons {
   position: absolute;
-  bottom: 10%;
+  bottom: 1%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
