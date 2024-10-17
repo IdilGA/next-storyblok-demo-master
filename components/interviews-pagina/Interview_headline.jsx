@@ -12,7 +12,7 @@ const Interview_headline = ({ blok }) => (
                 className="Artikel_lijn"
                 src={blok.interviews_lijn.filename}
     />
-<div className="flex items-center justify-between w-[870px]" >
+<div className="flex items-center justify-between w-[53vw]" >
   <img className=" interview_hero w-40 h-40"
                   src={blok.headline_afbeelding.filename}
       />
