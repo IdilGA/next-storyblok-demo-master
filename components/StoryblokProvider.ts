@@ -18,13 +18,16 @@ import Advertentie from "./Artikel-pagina/Advertentie";
 import Artikel_Plaatsreactie from "./Artikel-pagina/Artikel_Plaatsreactie";
 import Artikel_socialmedia from "./Artikel-pagina/Artikel_socialmedia";
 import Artikel_leesverder from "./Artikel-pagina/Artikel_leesverder";
-import Interviews_Intro from "./interviews-pagina/interviews_intro";
+import Interviews_intro from "./interviews-pagina/interviews_intro";
 import Interview_headline from "./interviews-pagina/Interview_headline";
 import Interviews_verzameling from "./interviews-pagina/Interviews_verzameling";
 import Netbinnen_sidebar from "./interviews-pagina/Netbinnen_sidebar";
 import Artikelen_header from "./Artikelen-pagina/Artikelen_header";
 import Artikelen_headline from "./Artikelen-pagina/Artikelen_headline"
 import Artikelen_Secondary from "./Artikelen-pagina/Artikelen_Secondary";
+import Interview_layout from "./interview_layout/Interview_layout";
+import Container from "./container/Container";
+import Netbinnen_header from "./interviews-pagina/Netbinnen_Header";
  
 const components = {
   page: Page,
@@ -42,14 +45,18 @@ const components = {
   Artikel_socialmedia : Artikel_socialmedia,
   Artikel_leesverder : Artikel_leesverder,
 
-  Interviews_Intro : Interviews_Intro,
+  interviews_intro : Interviews_intro,
   Interview_headline : Interview_headline,
-  Netbinnen_sidebar : Netbinnen_sidebar,
+  netbinnen_sidebar : Netbinnen_sidebar,
   Interviews_verzameling : Interviews_verzameling,
 
   Artikelen_header : Artikelen_header,
   Artikelen_headline : Artikelen_headline,
   Artikelen_Secondary : Artikelen_Secondary,
+
+  container: Container,
+  interview_layout: Interview_layout,
+  Netbinnen_header: Netbinnen_header,
 
 };
  

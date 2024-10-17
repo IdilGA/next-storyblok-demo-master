@@ -6,7 +6,7 @@ import "./Netbinnen_sidebar.css";
 
 
 const Netbinnen_sidebar = ({ blok }) => (
-  <div className="Netbinnen_sidebar ml-[30px] mt-5" {...storyblokEditable(blok)}>
+  <div className="Netbinnen_sidebar ml-[30px] mt-20 bg-green-500 w-[450px]" {...storyblokEditable(blok)}>
     <div className="flex flex-col w-[440px]">
       <div className="flex flex-row">
           <img className="afbeelding-design w-[75px]"
