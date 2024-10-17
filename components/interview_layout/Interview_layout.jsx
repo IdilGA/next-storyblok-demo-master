@@ -3,6 +3,7 @@ import { storyblokEditable } from "@storyblok/react/rsc";
 import Interviews_intro from "../interviews-pagina/interviews_intro";
 import Interview_headline from "../interviews-pagina/Interview_headline";
 import Netbinnen_sidebar from "../interviews-pagina/Netbinnen_sidebar";
+import Interviews_verzameling from "../interviews-pagina/Interviews_verzameling";
 
 const Interview_layout = ({ blok }) => {
   return (
@@ -38,6 +39,17 @@ const Interview_layout = ({ blok }) => {
                 />
               );
             }
+
+            else if (nestedBlok.component === "Interviews_verzameling") {
+              return (
+                <Interviews_verzameling
+                  blok={nestedBlok}
+                  key={nestedBlok._uid}
+                />
+              );
+            }
+
+
             return null;
           })}
       </div>

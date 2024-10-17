@@ -6,7 +6,7 @@ import "./Interviews_verzameling.css";
 
 
 const Interviews_verzameling = ({ blok }) => (
-  <div className="Interviews_verzameling mt-20" {...storyblokEditable(blok)}>
+  <div className="Interviews_verzameling mt-20 w-[60vw]" {...storyblokEditable(blok)}>
     <div className="flex flex-col justify-between">
       <div className=" flex justify-between">
         <div>
