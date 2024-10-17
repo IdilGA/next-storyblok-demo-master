@@ -17,7 +17,8 @@ const carrousel = ({ blok }) => (
     </span> 
     <img className="image" src={blok.kaart_afbeelding.filename} />
     <img className="textvak" src={blok.kaart_textvak.filename} />
-    <p>{blok.kaart_info}</p> 
+
+    <p className= "p-text">{blok.kaart_info}</p> 
 </div>
 
 <div className="blok">
@@ -26,7 +27,7 @@ const carrousel = ({ blok }) => (
     </span> 
     <img className="image" src={blok.kaart_afbeelding2.filename} />
     <img className="textvak" src={blok.kaart_textvak.filename} />
-    <p>{blok.kaart_info2}</p> 
+    <p className= "p-text">{blok.kaart_info2}</p> 
 </div>
 </div>
 
@@ -41,7 +42,7 @@ const carrousel = ({ blok }) => (
     </span> 
     <img className="image" src={blok.kaart_afbeelding3.filename} />
     <img className="textvak" src={blok.kaart_textvak.filename} />
-    <p>{blok.kaart_info}</p> 
+    <p className= "p-text">{blok.kaart_info}</p> 
 </div>
 
 <div className="blok">
@@ -49,8 +50,8 @@ const carrousel = ({ blok }) => (
         {render(blok.datum4)} 
     </span> 
     <img className="image" src={blok.kaart_afbeelding.filename} />
-    <img className="textvak" src={blok.kaart_textvak.filename} />
-    <p>{blok.kaart_info2}</p> 
+    <img className="textvak2" src={blok.kaart_textvak.filename} />
+    <p className= "p-text">{blok.kaart_info2}</p> 
 </div>
 </div>
 
