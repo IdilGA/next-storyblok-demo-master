@@ -31,10 +31,10 @@ const carrousel = ({ blok }) => (
 </div>
 </div>
 
-<h1 className="maand">{blok.maand2}</h1>
+<h1 className="maand2">{blok.maand2}</h1>
 
 
-<div className="container">
+<div className="container2">
 
 <div className="blok">
     <span className="datum">

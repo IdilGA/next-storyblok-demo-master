@@ -79,35 +79,41 @@ p {
 }
 
 @media (max-width: 768px) {
-    /* Verberg de maand, afbeelding 3 en afbeelding 4 op kleinere schermen */
-    .maand, .maand2, .container2, .blok2 {
-        display: none;
-    }
-
-    /* Pas de container aan voor mobiele schermen */
     .container {
-        flex-direction: column; /* Zet items onder elkaar op mobiel */
-        align-items: center; /* Centreer de inhoud */
-        margin-left: 0;
-        gap: 2rem; /* Verklein de ruimte tussen de elementen */
-    }
-
-    .blok {
-        align-items: center; /* Centreer de inhoud van de blokken */
-        
-    }
-
-    .textvak {
-        display: none;
-    }
-
-    p {
-        font-size: 1rem; /* Verklein de tekst op mobiele apparaten */
+        flex-direction: column;
+        display: flex;
+        justify-content: center; /* Voor centreren van items verticaal */
+        align-items: center; /* Voor centreren van items horizontaal */
+        gap: 6rem;
         margin-top: 1rem;
-    }
-
-    .datum {
-        left: 1rem; /* Verplaats de datum dichter naar de rand op kleinere schermen */
-        font-size: 0.8rem; /* Verklein de tekst van de datum */
+        width: 90%; /* Zorgt ervoor dat de container wat smaller is */
+        max-width: 500px; /* Optioneel: maximale breedte voor kleinere schermen */
+        margin-left: 1rem;
     }
 }
+
+
+@media (max-width: 768px) {
+    .container2 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .textvak{
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px){
+    .maand2{
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 768px){
+    .textvak3{
+        margin-bottom: 5rem;
+    }
+}
+
