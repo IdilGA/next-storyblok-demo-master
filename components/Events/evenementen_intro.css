@@ -8,20 +8,57 @@
   font-size: 32px;
 }
 
-.intro_tekst p{
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 5rem;
-  margin-top: 10rem;
+@media (max-width: 768px){
+  .pagina_titel{
+    font-size: 20px;
+  }
+}
+
+
+.intro_tekst p {
+  font-size: clamp(2rem, 5vw, 5rem); /* Dynamische tekstgrootte op basis van viewport breedte */
+  margin-top: 5rem; /* Pas marges aan voor mobiel */
+}
+
+@media (max-width: 768px) {
+  .intro_tekst p {
+    font-size: 2rem; /* Kleiner formaat voor mobiele apparaten */
+    margin-top: 1rem;
+  }
 }
 
 .evenement_afbeelding_container {
   width: 100%;
-  margin-top: clamp(1.2rem, 6vw,1rem);
+  height: 100%;
+  margin-top: clamp(1.2rem, 6vw, 1rem);
 }
 
 .evenement_afbeelding {
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 768px) {
+  .evenement_afbeelding_container {
+    height: 60vh; /* Zorg dat de afbeelding 60% van de viewporthoogte is */
+  }
+
+  .evenement_afbeelding {
+    width: 100%;
+    height: 60vh; /* De afbeelding vult 60% van de schermhoogte */
+    object-fit: cover; /* Zorg ervoor dat de afbeelding goed blijft gevuld */
+  }
+
+  .evenement_buttons {
+    bottom: 2%; /* Plaatst de knoppen 2% boven de onderkant van de afbeelding op mobiele apparaten */
+    width: 90%; /* Zorg dat de container breed genoeg is op mobiel */
+  }
+
+  .evenement_button {
+    width: 45%; /* Zorg dat de knoppen naast elkaar passen */
+    padding: 0.8rem 1rem; /* Verklein padding op mobiele apparaten */
+    font-size: 1rem;
+  }
 }
 
 .evenement_buttons {
@@ -62,33 +99,16 @@
   cursor: pointer;
 }
 
-.button_1:hover{
+.button_1:hover {
   background-color: #ffffff;
   color: #000000;
 }
 
 .button_2:hover {
   background-color: #ffffff;
-  color: #000000; 
+  color: #000000;
 }
 
-
-
-@media (max-width: 768px) {
-  .evenement_buttons {
-    bottom: 5%;
-    flex-direction: column;
-    align-items: center;
-    gap: 0rem;
-  }
-
-  .evenement_button {
-    width: 40%;
-    max-width: 40%;
-    min-width: auto;
-    margin: 0 auto;
-  }
-}
 
 /* Timer blok styling */
 .timer_blok {
@@ -98,22 +118,18 @@
   margin-left: 0; /* Links uitlijnen */
 }
 
-
-/* Kleine titel (boven) */
 .kleine_titel {
   font-size: 2rem; /* Kleinere tekst voor de titel boven */
   margin-bottom: 5px;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-/* Grote titel (middelste tekst) */
 .grote_titel {
-  font-size: 1rem; /* Grotere tekst voor de middelste titel */
+  font-size: 1.5rem; /* Grotere tekst voor de middelste titel */
   margin-bottom: 0.1rem;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-/* Beschrijving (onder) */
 .beschrijving {
   font-size: 1rem; /* Kleinere tekst voor de beschrijving onder */
   font-family: 'IBM Plex Sans', sans-serif;
@@ -123,21 +139,24 @@
 @media (max-width: 768px) {
   .timer_blok {
     padding: 10px;
+    text-align: center; /* Center de tekst op kleinere schermen voor een betere layout */
+    max-width: 100%; /* Breid de timer uit naar volledige breedte op mobiele schermen */
   }
 
   .kleine_titel {
-    font-size: 14px;
+    font-size: 1.2rem; /* Verklein de titel op kleinere schermen */
   }
 
   .grote_titel {
-    font-size: 24px; /* Nog steeds groter dan de andere teksten, maar kleiner voor mobiele schermen */
+    font-size: 1.4rem; /* Verklein de tekst iets */
   }
 
   .beschrijving {
-    font-size: 12px;
+    font-size: 0.9rem; /* Verklein de beschrijving op mobiele schermen */
   }
 }
 
+/* Extra blok */
 .extra_blok {
   display: flex;
   justify-content: space-between;
@@ -157,6 +176,18 @@
   text-align: left;
 }
 
+@media (max-width: 768px) {
+  .word{
+    font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 768px){
+    .extra_blok{
+      margin-top: 0.1rem;
+    }
+  }
+
 .extra_blok_right {
   flex: 1;
   display: flex;
@@ -167,7 +198,8 @@
 
 .timer {
   display: flex;
-  gap: 3rem;
+  justify-content: center; /* Zorg dat de elementen in het midden staan */
+  gap: 3rem; /* Ruimte tussen de elementen */
   font-size: 1.5rem;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: bold;
@@ -184,14 +216,34 @@
   font-size: 1rem;
 }
 
+/* Responsiviteit voor Extra Blok */
 @media (max-width: 768px) {
   .extra_blok {
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
   }
 
+  .extra_blok_left,
   .extra_blok_right {
+    margin-left: 0;
+    padding-right: 0;
     align-items: center;
+    margin-top: 1rem;
+  }
+
+  .timer {
+    flex-direction: row; /* Verander de timer elementen in een kolom voor mobiel */
+    gap: 1rem;
+    font-size: 1.2rem; /* Verklein de tekst iets op mobiele schermen */
+  }
+
+  .timer_element {
+    font-size: 2.5rem; /* Verklein de timer-elementen op mobiele apparaten */
+  }
+
+  .timer_element span {
+    font-size: 0.8rem; /* Verklein de onderliggende tekst van de timer */
   }
 }
 
@@ -202,3 +254,21 @@
   width: 83%; /* Lijn van links naar rechts */
   margin: 8rem auto 0 auto;
 }
+
+@media (max-width: 768px) {
+.lijn_onder_blok {
+    border: 0;
+    height: 3px;
+    background: linear-gradient(to right, #F46D47, #76A5B9, #F46D47);
+    width: 83%; /* Lijn van links naar rechts */
+    margin: 1rem auto 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .kleine_titel{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    }
+  }

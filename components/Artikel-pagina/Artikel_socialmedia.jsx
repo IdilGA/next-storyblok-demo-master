@@ -1,17 +1,11 @@
 import { storyblokEditable } from "@storyblok/react/rsc";
 import "./artikel_socialmedia.css";
-// import {
-//   Accordion,
-//   AccordionContent,
-//   AccordionItem,
-//   AccordionTrigger,
-// } from "@/components/ui/accordion"
 
 
 
 const Artikel_socialmedia = ({ blok }) => (
   <div className="socialmedia_layout" {...storyblokEditable(blok)}>
-    <h1>{blok.socialmedia_titel}</h1>
+    <h1 className="mb-10 mt-10 font-bold text-[30px]">{blok.socialmedia_titel}</h1>
     <div className="socialmedia_container">
     <img
         src={blok.X_icon.filename}
@@ -30,15 +24,6 @@ const Artikel_socialmedia = ({ blok }) => (
         style={{ width: '35px' }}
       />
     </div>
-
-    {/* <Accordion type="single" collapsible>
-  <AccordionItem value="item-1">
-    <AccordionTrigger>Is it accessible?</AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.
-    </AccordionContent>
-  </AccordionItem>
-</Accordion> */}
 
   </div>
   

@@ -7,12 +7,12 @@ import "./Interview_headline.css";
 
 
 const Interview_headline = ({ blok }) => (
-  <div className="Interview_headline bg-purple-400 w-[60vw]" {...storyblokEditable(blok)}>
+  <div className="Interview_headline w-[60vw]" {...storyblokEditable(blok)}>
     <img
                 className="Artikel_lijn"
                 src={blok.interviews_lijn.filename}
     />
-<div className="flex items-center justify-between w-[870px]" >
+<div className="flex items-center justify-between w-[53vw]" >
   <img className=" interview_hero w-40 h-40"
                   src={blok.headline_afbeelding.filename}
       />

@@ -40,7 +40,7 @@ const Artikelen_Secondary = ({ blok }) => (
     </div>
 
     <div>
-    <img className="mt-5 w-[95vw]"
+    <img className="mt-10 w-[95vw]"
         src={blok.secondary_lijn.filename}
       />
     </div>
