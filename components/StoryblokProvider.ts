@@ -32,7 +32,8 @@ import Artikelen_Secondary from "./Artikelen-pagina/Artikelen_Secondary";
 import Interview_layout from "./interview_layout/Interview_layout";
 import Container from "./container/Container";
 import Netbinnen_header from "./interviews-pagina/Netbinnen_Header";
-
+import Home from "./home/Home";
+import Hero_Sectie from "./Hero_sectie/hero_sectie";
 import Nieuws_Nieuws from "./nieuwspagina/Nieuws_Nieuws";
 import Nieuws_Lijn from "./nieuwspagina/Nieuws_Lijn";
 import Nieuws_Interviews from "./nieuwspagina/Nieuws_Interviews";
@@ -45,6 +46,7 @@ const components = {
   evenementen_intro: evenementen_intro,
   Nieuws_Header : Nieuws_Header,
   footer: footer,
+  home: Home,
 
 
   kalender: kalender,

@@ -1,0 +1,43 @@
+/* Hero Section */
+.hero-sectio {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero_afbeelding {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero_afbeelding {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.hero_button {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero_button:hover {
+    background-color: #e64a19;
+}
