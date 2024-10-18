@@ -1,7 +1,7 @@
 import { storyblokEditable } from "@storyblok/react/rsc";
-import "./Header.css"; // Vergeet niet je CSS-bestand te importeren
+import "./Navigatie.css"; // Vergeet niet je CSS-bestand te importeren
 
-const Header = ({ blok }) => {
+const Navigatie = ({ blok }) => {
   return (
     <header className="header">
       {/* Logo sectie */}
@@ -81,4 +81,4 @@ const Header = ({ blok }) => {
   );
 };
 
-export default Header;
+export default Navigatie;

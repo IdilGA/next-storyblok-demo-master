@@ -6,7 +6,7 @@ import {
 } from "@storyblok/react/rsc";
 import Page from "./page.component";
 import Feature from "./Feature/Feature";
-import Header from "./header/Header";
+import Navigatie from "./Navigatie/Navigatie";
 import evenementen_intro from "./Events/evenementen_intro";
 import Nieuws_Header from "./nieuwspagina/Nieuws_Header";
 import footer from "./footer/Footer";
@@ -43,13 +43,13 @@ import Nieuws_Interviews from "./nieuwspagina/Nieuws_Interviews";
 import Nieuws_Advertentie from "./nieuwspagina/Nieuws_Advertentie";
 import Hero_Secondary from "./hero_Secondary/Hero_Secondary";
 import Nieuws_Verzameling from "./nieuwspagina/Nieuws_Verzameling";
- 
+
 const components = {
   page: Page,
   feature: Feature,
-  Header: Header,
+  Navigatie: Navigatie,
   evenementen_intro: evenementen_intro,
-  Nieuws_Header : Nieuws_Header,
+  Nieuws_Header: Nieuws_Header,
   footer: footer,
   home: Home,
   Hero_Secondary: Hero_Secondary,
@@ -57,53 +57,53 @@ const components = {
 
   kalender: kalender,
   slide: slide,
-  carrousel : carrousel,
-  
+  carrousel: carrousel,
 
 
-  artikel_intro : artikel_intro,
-  Artikel_Hero : Artikel_Hero,
-  Artikel_info : Artikel_info,
-  Artikel_Paragraaf : Artikel_Paragraaf,
-  Artikel_Quote : Artikel_Quote,
-  Advertentie : Advertentie,
-  Artikel_Plaatsreactie : Artikel_Plaatsreactie,
-  Artikel_socialmedia : Artikel_socialmedia,
-  Artikel_leesverder : Artikel_leesverder,
 
-  interviews_intro : Interviews_intro,
-  Interview_headline : Interview_headline,
-  Interviews_verzameling : Interviews_verzameling,
+  artikel_intro: artikel_intro,
+  Artikel_Hero: Artikel_Hero,
+  Artikel_info: Artikel_info,
+  Artikel_Paragraaf: Artikel_Paragraaf,
+  Artikel_Quote: Artikel_Quote,
+  Advertentie: Advertentie,
+  Artikel_Plaatsreactie: Artikel_Plaatsreactie,
+  Artikel_socialmedia: Artikel_socialmedia,
+  Artikel_leesverder: Artikel_leesverder,
 
-  Artikelen_header : Artikelen_header,
-  Artikelen_headline : Artikelen_headline,
-  Artikelen_Secondary : Artikelen_Secondary,
-  
+  interviews_intro: Interviews_intro,
+  Interview_headline: Interview_headline,
+  Interviews_verzameling: Interviews_verzameling,
+
+  Artikelen_header: Artikelen_header,
+  Artikelen_headline: Artikelen_headline,
+  Artikelen_Secondary: Artikelen_Secondary,
+
 
   container: Container,
   interview_layout: Interview_layout,
   Netbinnen_header: Netbinnen_header,
 
 
-  Nieuws_Nieuws : Nieuws_Nieuws,
-  Nieuws_Lijn : Nieuws_Lijn,
-  Nieuws_Interviews : Nieuws_Interviews,
-  Nieuws_Advertentie : Nieuws_Advertentie,
-  Netbinnen_sidebar : Netbinnen_sidebar,
-  Nieuws_Verzameling : Nieuws_Verzameling,
+  Nieuws_Nieuws: Nieuws_Nieuws,
+  Nieuws_Lijn: Nieuws_Lijn,
+  Nieuws_Interviews: Nieuws_Interviews,
+  Nieuws_Advertentie: Nieuws_Advertentie,
+  Netbinnen_sidebar: Netbinnen_sidebar,
+  Nieuws_Verzameling: Nieuws_Verzameling,
 
   // artikel_landscape : artikel_landscape,
   // artikelen_onder_layout : artikelen_onder_layout,
   // artikelen_links_layout : artikelen_links_layout,
   // netbinnen_sidebar : netbinnen_sidebar,
 };
- 
+
 storyblokInit({
   accessToken: process.env.NEXT_PUBLIC_STORYBLOK_ACCESS_TOKEN,
   use: [apiPlugin],
   components: components as SbReactComponentsMap,
 });
- 
+
 export default function StoryblokProvider({
   children,
 }: {
@@ -111,5 +111,5 @@ export default function StoryblokProvider({
 }) {
   return children;
 }
- 
+
 console.log(process.env.NEXT_PUBLIC_STORYBLOK_ACCESS_TOKEN);

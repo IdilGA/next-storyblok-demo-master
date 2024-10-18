@@ -1,5 +1,5 @@
 import { storyblokEditable, StoryblokComponent } from '@storyblok/react/rsc';
-import Header from './header/Header';  // Importeer de Header component
+import Header from './Navigatie/Navigatie';  // Importeer de Header component
 
 type Blok = {
   _uid: string;
