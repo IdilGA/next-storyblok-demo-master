@@ -42,6 +42,7 @@ import Nieuws_Lijn from "./nieuwspagina/Nieuws_Lijn";
 import Nieuws_Interviews from "./nieuwspagina/Nieuws_Interviews";
 import Nieuws_Advertentie from "./nieuwspagina/Nieuws_Advertentie";
 import Hero_Secondary from "./hero_Secondary/Hero_Secondary";
+import Nieuws_Verzameling from "./nieuwspagina/Nieuws_Verzameling";
  
 const components = {
   page: Page,
@@ -89,6 +90,7 @@ const components = {
   Nieuws_Interviews : Nieuws_Interviews,
   Nieuws_Advertentie : Nieuws_Advertentie,
   Netbinnen_sidebar : Netbinnen_sidebar,
+  Nieuws_Verzameling : Nieuws_Verzameling,
 
   // artikel_landscape : artikel_landscape,
   // artikelen_onder_layout : artikelen_onder_layout,

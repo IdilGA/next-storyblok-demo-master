@@ -1,0 +1,12 @@
+.Nieuws_Verzameling {
+    width: 1000px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 500px;
+}
