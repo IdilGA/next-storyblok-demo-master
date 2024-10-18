@@ -51,7 +51,7 @@ const components = {
   Nieuws_Header : Nieuws_Header,
   footer: footer,
   home: Home,
-  hero_Secondary: Hero_Secondary,
+  Hero_Secondary: Hero_Secondary,
 
 
   kalender: kalender,
