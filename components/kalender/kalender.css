@@ -1,15 +1,30 @@
 .kalender {
-    text-align: left; /* Uitlijning links voor de inhoud */
-    margin: 20px;
-    margin-left: 10rem;
+  text-align: left; /* Uitlijning links voor de inhoud */
+  margin: 20px;
+  margin-left: 10rem;
+}
+
+.kalender_titel {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .kalender {
+    text-align: center; /* Center de tekst op mobiele schermen */
+    margin-left: 0; /* Verwijder de linker marge */
+    margin-right: 0; /* Verwijder ook de rechter marge */
+    padding-left: 10px; /* Voeg een kleine padding toe voor wat ruimte links */
   }
-  
+}
+
+@media (max-width: 768px) {
   .kalender_titel {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
+    font-size: 1rem;
   }
-  
+}
+
   .filter_button {
     background-color: #76A5B9; /* Kleur van de knop */
     color: white;
