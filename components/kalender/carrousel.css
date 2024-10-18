@@ -1,7 +1,7 @@
 .maand {
     font-family: "Noto Sans", sans-serif;
     font-size: 2rem;
-    margin-left: 10rem;
+    margin-left: 7rem;
     margin-top: 5rem;
 }
 
@@ -10,8 +10,9 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 6rem;
-    margin-left: 10rem;
+    margin-left: 7rem;
     margin-top: 1rem;
+    max-width: 600px;
 }
 
 .container2 {
@@ -19,8 +20,9 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 6rem;
-    margin-left: 10rem;
+    margin-left: 7rem;
     margin-top: 1rem;
+    max-width: 600px;
     
 }
 
@@ -60,18 +62,25 @@
 
 .datum {
     position: absolute; /* Zorgt ervoor dat de datum op de afbeelding verschijnt */
-    left: 2rem; /* Plaatst de datum 10px van de linkerkant */
+    left: 0rem; /* Plaatst de datum 10px van de linkerkant */
     background-color: black; /* Zwarte achtergrond voor contrast */
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
     color: white;
-    font-size: 1rem;
+    font-size: 1.8rem;
     border-radius: 5px;
     z-index: 10; /* Zorgt ervoor dat de datum boven de afbeelding komt */
+    text-align: center;
+    border-color: #ffffff;
+    border: solid 1px;
 }
 
 .maand2{
         font-family: "Noto Sans", sans-serif;
         font-size: 2rem;
-        margin-left: 10rem;
+        margin-left: 7rem;
         margin-top: 8rem;
     }
 
@@ -85,15 +94,22 @@
 
 @media (max-width: 768px) {
     .container {
+        background-color: #ffffff;
         flex-direction: column;
         display: flex;
         justify-content: center; /* Voor centreren van items verticaal */
         align-items: center; /* Voor centreren van items horizontaal */
-        gap: 6rem;
-        margin-top: 1rem;
-        width: 90%; /* Zorgt ervoor dat de container wat smaller is */
-        max-width: 500px; /* Optioneel: maximale breedte voor kleinere schermen */
-        margin-left: 1rem;
+        gap: 3rem;
+        margin-top: 0rem;
+        width: 100%; /* Zorgt ervoor dat de container wat smaller is */
+        max-width: 768px; /* Optioneel: maximale breedte voor kleinere schermen */
+        margin-left: 2rem;
+    }
+}
+
+@media(max-width: 768px){
+    .maand{
+        margin-left: 2rem;
     }
 }
 
@@ -119,6 +135,12 @@
 @media (max-width: 768px){
     .textvak3{
         margin-bottom: 5rem;
+        margin-left: 5rem;
     }
 }
 
+@media (max-width: 768px){
+    .netbinnen_sidebar{
+        display: none;
+    }
+}
