@@ -3,7 +3,7 @@ import { render } from "storyblok-rich-text-react-renderer";
 import "./carrousel.css";
  
 const carrousel = ({ blok }) => (
-  <div{...storyblokEditable(blok)}>
+  <div className=""{...storyblokEditable(blok)}>
   <div>
 
 <h1 className="maand">{blok.maand}</h1>
