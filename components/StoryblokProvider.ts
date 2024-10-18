@@ -47,7 +47,7 @@ import Nieuws_Verzameling from "./nieuwspagina/Nieuws_Verzameling";
 const components = {
   page: Page,
   feature: Feature,
-  header: Header,
+  Header: Header,
   evenementen_intro: evenementen_intro,
   Nieuws_Header : Nieuws_Header,
   footer: footer,
