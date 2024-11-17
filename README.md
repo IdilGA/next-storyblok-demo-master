@@ -187,10 +187,13 @@ In dit project zijn de volgende branches gebruikt:
 | Taak                       | Naam         |
 | -------------------------- | ------------ |
 | Basisopzet en configuratie | Idil         |
-| Componentontwikkeling      | Idil, Luc    |
-| Responsiviteit             | Yusuf, Freek |
-| Footer                     | Roy          |
-| Branchbeheer               | Idil         |
+| Componentontwikkeling      | Idil, Luc,Yusuf    |
+| Responsiviteit             | Deels iedereen |
+| Footer                     | Idil          |
+| Navigatie/Navbar           | Idil
+| Branchbeheer               | Iedereen         |
+|Homepagina                  | Idil            |
+
 
 ---
 
