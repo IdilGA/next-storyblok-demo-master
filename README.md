@@ -1,7 +1,5 @@
-#TrendFocus optie 2 groep 3: Firly
-
 <div align="center">
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+[![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](#00DC82)
 </div>
 <br></br>
 
