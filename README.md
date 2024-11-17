@@ -7,10 +7,11 @@
 
 <div align="center">
 
-  <a href="https://www.2manydots.nl/">
-    <img src="./readme-items/logo.svg" alt="2manydots logo" height="80">
+  <!-- Hier kun je het TrendFocus-logo plaatsen -->
+  <a href="https://github.com/IdilGA/next-storyblok-demo-master">
+    <img src="./readme-items/logo-trendfocus.svg" alt="TrendFocus logo" height="80">
   </a>
-(hier mag de logo van trendfocus of is het beter om het boven te doen?)
+
   <h3 align="center">TrendFocus - Marketing Website</h3>
 
   <p align="center">
@@ -19,7 +20,9 @@
     <strong>Idil, Yusuf, Luc, Freek en Roy</strong>
     <br>
     <a href="https://github.com/IdilGA/next-storyblok-demo-master">Bekijk de repository</a>
-    · Het moet nog op vercel worden gehost maar ik moet mijn env local in git ignore zettten)
+    ·
+    (Hosting op Vercel volgt na configuratie van .env-bestanden)
+    <br>
     <a href="#suggesties">Suggesties voor verdere ontwikkeling</a>
   </p>
 
@@ -45,15 +48,14 @@
 
 # Het project
 
-In deze repository vind je de TrendFocus-marketingwebsite, ontwikkeld als optie 2 in samenwerking met [2manydots](https://www.2manydots.nl/). (hier mag de logo erin) Het project richt zich op het creëren van een schaalbare, dynamische website met moderne technologieën zoals **Next.js** en **Storyblok**.
+In deze repository vind je de TrendFocus-marketingwebsite, ontwikkeld als optie 2 in samenwerking met [2manydots](https://www.2manydots.nl/).
 
-Het doel van TrendFocus is om bedrijven te ondersteunen bij hun online marketing door een gebruiksvriendelijke en flexibele oplossing te bieden. Het project combineert dynamische contentbeheer met visueel aantrekkelijke ontwerpen.
+Dit project richt zich op het creëren van een schaalbare, dynamische website met moderne technologieën zoals **Next.js** en **Storyblok**.  
+Het doel van **TrendFocus** is om bedrijven te ondersteunen bij hun online marketing door een gebruiksvriendelijke en flexibele oplossing te bieden. Het project combineert dynamisch contentbeheer met visueel aantrekkelijke ontwerpen.
 
 ---
 
 # Features & Technologieën
-
-Dit project maakt gebruik van de volgende tools en technologieën:
 
 ### Technologieën
 
@@ -67,17 +69,17 @@ Dit project maakt gebruik van de volgende tools en technologieën:
 
 # Taakverdeling
 
-Dit project hebben wij allemaal gewerkt aan design en hebben wij als feedback gehad om in de toekomst een betere taakverdeling te doen om niet veel tijd kwijt te raken.
+Dit project hebben wij gezamenlijk ontwikkeld, maar we hebben geleerd dat een betere taakverdeling in de toekomst essentieel is om efficiënter te werken.
 
 ### Concepting & Design
 
-| Taak                    | Naam       |
-| ----------------------- | ---------- |
-| Wireframes              | Iedereen   |
-| Logo-ontwikkeling       | Yusuf,Idil |
-| Branding & kleurenpalet | Iedereen   |
-| Layout design           | Luc,Yusuf  |
-| Presentatie             | Hele groep |
+| Taak                    | Naam        |
+| ----------------------- | ----------- |
+| Wireframes              | Iedereen    |
+| Logo-ontwikkeling       | Yusuf, Idil |
+| Branding & kleurenpalet | Iedereen    |
+| Layout design           | Luc, Yusuf  |
+| Presentatie             | Hele groep  |
 
 ### Development
 
@@ -107,6 +109,10 @@ Het project is volledig functioneel en bevat dynamische pagina's, maar verdere o
 
 ---
 
-Dank je wel voor je interesse in ons project! Neem gerust contact op voor vragen of feedback.
+# Reflectie
 
-🎉 **Dit was een mooie eerste ervaring met storyblok en next omdat wij al 3x opnieuw zijn gestart door niet goed met branches te gaan werken.!**
+🎉 **Dit was een waardevolle ervaring met Storyblok en Next.js.** Ondanks uitdagingen, zoals het drie keer opnieuw starten vanwege inefficiënt gebruik van branches, hebben we veel geleerd over samenwerking, planning en technologieën. Dit geeft ons waardevolle lessen voor toekomstige projecten!
+
+---
+
+Dank je wel voor je interesse in ons project! Neem gerust contact op voor vragen of feedback.
