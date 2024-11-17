@@ -28,9 +28,8 @@
     <br>
     <a href="https://github.com/IdilGA/next-storyblok-demo-master">Bekijk de repository</a>
     ·
-    Hosting op Vercel volgt na configuratie van .env-bestanden
     <br>
-    <a href="#suggesties">Suggesties voor verdere ontwikkeling</a>
+    <a href="https://trendfocusnextstoryblok1.vercel.app/">🌐 Bekijk de live demo</a>
   </p>
 </div>
 
