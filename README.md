@@ -43,6 +43,7 @@
     <div>
         <ol>
             <li><a href="#het-project">Het project</a></li>
+            <li><a href="#opstart-van-het-project">Opstart van het project</a></li>
             <li><a href="#pagina-indeling">Pagina-indeling</a></li>
             <li><a href="#features--technologieën">Features & Technologieën</a></li>
             <li><a href="#ervaring-met-branches-en-storyblok">Ervaring met branches en Storyblok</a></li>
@@ -59,20 +60,65 @@
 
 In deze repository vind je de TrendFocus-marketingnieuwswebsite, ontwikkeld in samenwerking met [2manydots](https://www.2manydots.nl/).
 
-Dit project richt zich op het creëren van een schaalbare, dynamische website met moderne technologieën zoals **Next.js** en **Storyblok**.  
-Het doel van **TrendFocus** is om professionals in marketing, communicatie en ondernemerschap up-to-date te houden over de nieuwste trends en inzichten. Het combineert dynamisch contentbeheer met visueel aantrekkelijke ontwerpen.
+Dit project richt zich op het creëren van een schaalbare, dynamische website met moderne technologieën zoals **Next.js** en **Storyblok**.
+
+**Doel**:  
+Het doel van **TrendFocus** is om professionals in marketing, communicatie en ondernemerschap up-to-date te houden over de nieuwste trends en inzichten. Door gebruik te maken van een headless CMS en dynamische frontend-technologieën hebben we een platform gebouwd dat zowel gebruiksvriendelijk als visueel aantrekkelijk is.
+
+---
+
+# Opstart van het project
+
+De opstart van dit project was een cruciale stap in het ontwikkelingsproces. **Idil** heeft de basis van het project gelegd door de structuur van **docent Pim Willems** te volgen, beschikbaar via zijn GitHub-repository: [Pim Willems' GitHub-repository](https://github.com/pimwillems/next-storyblok-demo).
+
+### Stappen bij de opstart:
+
+1. **Clonen van de voorbeeldrepository**:  
+   De repository van Pim bood een solide basis met een werkende koppeling tussen **Next.js** en **Storyblok**.
+
+2. **Configuratie aanpassen**:
+
+   - Aanmaken van een nieuwe **Storyblok-omgeving**.
+   - Toevoegen van een persoonlijke **API-sleutel** aan de `.env`-configuratie.
+   - Opzetten van een dynamische `page.component` om content te beheren.
+
+3. **Componentontwikkeling starten**:
+
+   - Aanmaken van componenten zoals een hero-sectie, kaartweergave en call-to-action-buttons.
+   - Testen van componenten via zowel de lokale server als de Storyblok-previewomgeving.
+
+4. **Samenwerking faciliteren**:  
+   Door de basis op te zetten, konden andere teamleden hun taken overnemen in specifieke branches.
 
 ---
 
 # Pagina-indeling
 
-De website is gebouwd met behulp van een headless CMS, Storyblok. De volgende pagina's zijn ontwikkeld:
+De website bevat de volgende pagina's, gebouwd met herbruikbare componenten:
 
-1. **Homepagina**: Overzicht van de nieuwste artikelen, trending onderwerpen en aanbevolen content.
-2. **Nieuws**: Dagelijks nieuws over marketinginnovaties en trends.
-3. **Interviews**: Diepgaande gesprekken met marketingexperts.
-4. **Artikelen**: Gedetailleerde rapporten, casestudies en opinies over marketingstrategieën.
-5. **Evenementen & Webinars**: Agenda met aankomende marketingevenementen en workshops.
+1. **Homepagina**:
+
+   - Overzicht van de nieuwste artikelen, trending onderwerpen en aanbevolen content.
+   - Dynamische hero-sectie met afbeeldingen en een call-to-action.
+
+2. **Nieuws**:
+
+   - Dagelijks nieuws met categorieën en tags.
+   - Ingebouwde zoekfunctionaliteit voor eenvoudige navigatie.
+
+3. **Interviews**:
+
+   - Pagina met exclusieve interviews en videocomponenten.
+   - Ondersteunt integratie met platforms zoals YouTube en Vimeo.
+
+4. **Artikelen**:
+
+   - Casestudies en opinies, met ondersteuning voor afbeeldingen en interactieve content.
+   - Responsieve weergave voor lange artikelen.
+
+5. **Evenementen & Webinars**:
+   - Volledige agendaweergave van aankomende evenementen.
+   - Bevat directe links naar inschrijfformulieren.
 
 ---
 
@@ -86,36 +132,41 @@ De website is gebouwd met behulp van een headless CMS, Storyblok. De volgende pa
 - **[React](https://reactjs.org/):** Component-gebaseerde frontend-bibliotheek 💡
 - **[GitHub Actions](https://github.com/features/actions):** Automatisering van workflows voor CI/CD 🚀
 
+### Belangrijkste Features
+
+1. **CMS-integratie**:
+
+   - Herbruikbare componenten voor efficiënte contentbeheer.
+   - Real-time updates in Storyblok zichtbaar in de frontend.
+
+2. **Responsief ontwerp**:
+
+   - Optimale weergave op desktop, tablet en mobiele apparaten.
+
+3. **Geavanceerde filters**:
+   - Filteren op categorieën, tags en publicatiedatum.
+
 ---
 
 # Ervaring met branches en Storyblok
 
-### Uitdagingen
+### Lessen uit het gebruik van branches:
 
-Tijdens de ontwikkeling hebben we enkele technische en organisatorische uitdagingen overwonnen:
-
-- **Branches**: Door inefficiënt gebruik van branches moesten we het project meerdere keren opnieuw opstarten. Dit heeft ons geleerd om beter samen te werken en duidelijke afspraken te maken over wie waaraan werkt.
-- **Storyblok-omgeving**: Bij de tweede versie werd de `page.component` per ongeluk verwijderd. Hierdoor moesten we een volledig nieuwe omgeving aanmaken binnen Storyblok. Dit gaf ons meer inzicht in het opzetten van een flexibele contentstructuur.
-
-### Lessen
-
-- Duidelijke taakverdeling binnen branches is essentieel.
-- Regelmatig committen voorkomt dat grote delen van het werk verloren gaan.
-- Een goed opgezet CMS helpt bij het efficiënt beheren van content.
+- Elk teamlid werkte aan afzonderlijke taken in feature-branches, wat merge-conflicten beperkte.
+- Regelmatig pullen van de **main branch** voorkwam het overschrijven van werk.
+- **Idil** zorgde voor overzicht door branches samen te voegen en updates bij te houden.
 
 ---
 
 # Branches
 
-In dit project hebben we gewerkt met verschillende branches om specifieke taken te scheiden en beter samen te werken. Hier is een overzicht van de belangrijkste branches:
+In dit project zijn de volgende branches gebruikt:
 
-| Branch                      | Beschrijving                                              | Link                                                                                             |
-| --------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| **main**                    | Laatste stabiele versie van het project                   | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/main)                    |
-| **feature/homepage**        | Ontwikkeling van de homepage                              | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/feature/homepage)        |
-| **feature/interviews**      | Implementatie van de interviews-pagina                    | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/feature/interviews)      |
-| **feature/footer**          | Ontwikkeling van de footer-component                      | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/feature/footer)          |
-| **fix/storyblok-component** | Herstel van een verwijderde `page.component` in Storyblok | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/fix/storyblok-component) |
+| Branch               | Beschrijving                            | Link                                                                                      |
+| -------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **main**             | Laatste stabiele versie van het project | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/main)             |
+| **feature/homepage** | Ontwikkeling van de homepage            | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/feature/homepage) |
+| **feature/footer**   | Implementatie van de footer             | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/feature/footer)   |
 
 ---
 
@@ -133,35 +184,19 @@ In dit project hebben we gewerkt met verschillende branches om specifieke taken 
 
 ### Development
 
-| Taak                       | Naam |
-| -------------------------- | ---- |
-| Opzetten van de repository | Idil |
-| Next.js integratie         | Idil |
-| Storyblok configuratie     | Idil |
-| Responsiviteit toevoegen   | Idil |
-| Footer implementatie       | Idil |
-| Readme maken               | Idil |
-
----
-
-# Suggesties
-
-### Mogelijke uitbreidingen voor het project:
-
-1. **Meertaligheid:** Voeg ondersteuning toe voor meerdere talen met behulp van Storyblok’s i18n.
-2. **SEO-verbeteringen:** Implementeer Open Graph-tags en een sitemap.
-3. **Gebruikersondersteuning:** Integreer een chatbot of AI voor snelle vragen.
-4. **Geavanceerde componenten:** Ontwikkel meer interactieve componenten, zoals sliders en carrousels.
-
-### Project Status
-
-Het project is volledig functioneel en bevat dynamische pagina's, maar verdere optimalisaties kunnen worden toegevoegd, zoals personalisatie op basis van gebruikersprofielen en geavanceerde analytics.
+| Taak                       | Naam         |
+| -------------------------- | ------------ |
+| Basisopzet en configuratie | Idil         |
+| Componentontwikkeling      | Idil, Luc    |
+| Responsiviteit             | Yusuf, Freek |
+| Footer                     | Roy          |
+| Branchbeheer               | Idil         |
 
 ---
 
 # Reflectie
 
-🎉 **Dit was een waardevolle ervaring met Storyblok en Next.js.** Ondanks uitdagingen, zoals het meerdere keren opnieuw starten van het project vanwege inefficiënt gebruik van branches, hebben we veel geleerd over samenwerking, planning en technologieën. Dit geeft ons waardevolle lessen voor toekomstige projecten!
+🎉 **Dit project heeft ons inzicht gegeven in het gebruik van Storyblok en Next.js.** Het was een uitdaging om de structuur van branches en Storyblok-omgevingen te beheren, maar uiteindelijk heeft de samenwerking geleid tot een professioneel en functioneel eindproduct.
 
 ---
 
