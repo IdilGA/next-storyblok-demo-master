@@ -1,4 +1,6 @@
- <div align="center">
+#TrendFocus optie 2 groep 3: Firly
+
+<div align="center">
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 </div>
 <br></br>
