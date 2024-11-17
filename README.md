@@ -177,6 +177,7 @@ In dit project zijn de volgende branches gebruikt:
 | Logo-ontwikkeling       | Yusuf, Idil |
 | Branding & kleurenpalet | Iedereen    |
 | Layout design           | Luc, Yusuf  |
+| Layout verbeteren       | Freek, Idil |
 | Presentatie             | Hele groep  |
 
 ### Development
