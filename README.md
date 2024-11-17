@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Logo van TrendFocus -->
-  <img src="https://via.placeholder.com/150?text=TrendFocus+Logo" alt="TrendFocus logo" height="100">
+  <img src="./readme-items/logo-light.png" alt="TrendFocus logo" height="100">
 </div>
 
 <div align="center">
@@ -16,7 +16,7 @@
 <div align="center">
   <!-- Logo van 2manydots -->
   <a href="https://www.2manydots.nl/">
-    <img src="https://via.placeholder.com/150?text=2manydots+Logo" alt="2manydots logo" height="80">
+    <img src="./readme-items/logo.svg" alt="2manydots logo" height="80">
   </a>
 
   <h3 align="center">TrendFocus - Marketing Website</h3>
