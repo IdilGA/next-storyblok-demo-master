@@ -161,11 +161,9 @@ De website bevat de volgende pagina's, gebouwd met herbruikbare componenten:
 
 In dit project zijn de volgende branches gebruikt:
 
-| Branch               | Beschrijving                            | Link                                                                                      |
-| -------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------- |
-| **main**             | Laatste stabiele versie van het project | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/main)             |
-| **feature/homepage** | Ontwikkeling van de homepage            | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/feature/homepage) |
-| **feature/footer**   | Implementatie van de footer             | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/feature/footer)   |
+| Branch   | Beschrijving                            | Link                                                                          |
+| -------- | --------------------------------------- | ----------------------------------------------------------------------------- |
+| **main** | Laatste stabiele versie van het project | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/main) |
 
 ---
 
@@ -183,16 +181,18 @@ In dit project zijn de volgende branches gebruikt:
 
 ### Development
 
-| Taak                       | Naam         |
-| -------------------------- | ------------ |
-| Basisopzet en configuratie | Idil         |
-| Componentontwikkeling      | Idil, Luc,Yusuf    |
+| Taak                       | Naam           |
+| -------------------------- | -------------- |
+| Basisopzet en configuratie | Idil           |
+| Componentontwikkeling      | Idil,Luc,Yusuf |
 | Responsiviteit             | Deels iedereen |
-| Footer                     | Idil          |
-| Navigatie/Navbar           | Idil
-| Branchbeheer               | Iedereen         |
-|Homepagina                  | Idil            |
-
+| Footer                     | Idil           |
+| Navigatie/Navbar           | Idil           |
+| Branchbeheer               | Iedereen       |
+| Homepagina                 | Idil           |
+| Evenementen                | Luc            |
+| Nieuws & Artikelen         | Yusuf          |
+| Interview                  | Freek          |
 
 ---
 
