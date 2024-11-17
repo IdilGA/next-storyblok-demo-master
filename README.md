@@ -19,7 +19,7 @@
     <img src="./readme-items/logo.svg" alt="2manydots logo" height="80">
   </a>
 
-  <h3 align="center">TrendFocus - Marketing Website</h3>
+  <h3 align="center">TrendFocus - Marketing Nieuws Website</h3>
 
   <p align="center">
     Een project ontwikkeld in samenwerking met <strong>2manydots</strong> door groep 3:
@@ -28,7 +28,7 @@
     <br>
     <a href="https://github.com/IdilGA/next-storyblok-demo-master">Bekijk de repository</a>
     ·
-    (Hosting op Vercel volgt na configuratie van .env-bestanden)
+    Hosting op Vercel volgt na configuratie van .env-bestanden
     <br>
     <a href="#suggesties">Suggesties voor verdere ontwikkeling</a>
   </p>
@@ -43,7 +43,10 @@
     <div>
         <ol>
             <li><a href="#het-project">Het project</a></li>
+            <li><a href="#pagina-indeling">Pagina-indeling</a></li>
             <li><a href="#features--technologieën">Features & Technologieën</a></li>
+            <li><a href="#ervaring-met-branches-en-storyblok">Ervaring met branches en Storyblok</a></li>
+            <li><a href="#branches">Branches</a></li>
             <li><a href="#taakverdeling">Taakverdeling</a></li>
             <li><a href="#suggesties">Suggesties voor verdere ontwikkeling</a></li>
         </ol>
@@ -54,10 +57,22 @@
 
 # Het project
 
-In deze repository vind je de TrendFocus-marketingwebsite, ontwikkeld als optie 2 in samenwerking met [2manydots](https://www.2manydots.nl/).
+In deze repository vind je de TrendFocus-marketingnieuwswebsite, ontwikkeld in samenwerking met [2manydots](https://www.2manydots.nl/).
 
 Dit project richt zich op het creëren van een schaalbare, dynamische website met moderne technologieën zoals **Next.js** en **Storyblok**.  
-Het doel van **TrendFocus** is om bedrijven te ondersteunen bij hun online marketing door een gebruiksvriendelijke en flexibele oplossing te bieden. Het project combineert dynamisch contentbeheer met visueel aantrekkelijke ontwerpen.
+Het doel van **TrendFocus** is om professionals in marketing, communicatie en ondernemerschap up-to-date te houden over de nieuwste trends en inzichten. Het combineert dynamisch contentbeheer met visueel aantrekkelijke ontwerpen.
+
+---
+
+# Pagina-indeling
+
+De website is gebouwd met behulp van een headless CMS, Storyblok. De volgende pagina's zijn ontwikkeld:
+
+1. **Homepagina**: Overzicht van de nieuwste artikelen, trending onderwerpen en aanbevolen content.
+2. **Nieuws**: Dagelijks nieuws over marketinginnovaties en trends.
+3. **Interviews**: Diepgaande gesprekken met marketingexperts.
+4. **Artikelen**: Gedetailleerde rapporten, casestudies en opinies over marketingstrategieën.
+5. **Evenementen & Webinars**: Agenda met aankomende marketingevenementen en workshops.
 
 ---
 
@@ -73,9 +88,38 @@ Het doel van **TrendFocus** is om bedrijven te ondersteunen bij hun online marke
 
 ---
 
-# Taakverdeling
+# Ervaring met branches en Storyblok
 
-Dit project hebben wij gezamenlijk ontwikkeld, maar we hebben geleerd dat een betere taakverdeling in de toekomst essentieel is om efficiënter te werken.
+### Uitdagingen
+
+Tijdens de ontwikkeling hebben we enkele technische en organisatorische uitdagingen overwonnen:
+
+- **Branches**: Door inefficiënt gebruik van branches moesten we het project meerdere keren opnieuw opstarten. Dit heeft ons geleerd om beter samen te werken en duidelijke afspraken te maken over wie waaraan werkt.
+- **Storyblok-omgeving**: Bij de tweede versie werd de `page.component` per ongeluk verwijderd. Hierdoor moesten we een volledig nieuwe omgeving aanmaken binnen Storyblok. Dit gaf ons meer inzicht in het opzetten van een flexibele contentstructuur.
+
+### Lessen
+
+- Duidelijke taakverdeling binnen branches is essentieel.
+- Regelmatig committen voorkomt dat grote delen van het werk verloren gaan.
+- Een goed opgezet CMS helpt bij het efficiënt beheren van content.
+
+---
+
+# Branches
+
+In dit project hebben we gewerkt met verschillende branches om specifieke taken te scheiden en beter samen te werken. Hier is een overzicht van de belangrijkste branches:
+
+| Branch                      | Beschrijving                                              | Link                                                                                             |
+| --------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **main**                    | Laatste stabiele versie van het project                   | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/main)                    |
+| **feature/homepage**        | Ontwikkeling van de homepage                              | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/feature/homepage)        |
+| **feature/interviews**      | Implementatie van de interviews-pagina                    | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/feature/interviews)      |
+| **feature/footer**          | Ontwikkeling van de footer-component                      | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/feature/footer)          |
+| **fix/storyblok-component** | Herstel van een verwijderde `page.component` in Storyblok | [Bekijk hier](https://github.com/IdilGA/next-storyblok-demo-master/tree/fix/storyblok-component) |
+
+---
+
+# Taakverdeling
 
 ### Concepting & Design
 
@@ -117,7 +161,7 @@ Het project is volledig functioneel en bevat dynamische pagina's, maar verdere o
 
 # Reflectie
 
-🎉 **Dit was een waardevolle ervaring met Storyblok en Next.js.** Ondanks uitdagingen, zoals het drie keer opnieuw starten vanwege inefficiënt gebruik van branches, hebben we veel geleerd over samenwerking, planning en technologieën. Dit geeft ons waardevolle lessen voor toekomstige projecten!
+🎉 **Dit was een waardevolle ervaring met Storyblok en Next.js.** Ondanks uitdagingen, zoals het meerdere keren opnieuw starten van het project vanwege inefficiënt gebruik van branches, hebben we veel geleerd over samenwerking, planning en technologieën. Dit geeft ons waardevolle lessen voor toekomstige projecten!
 
 ---
 
