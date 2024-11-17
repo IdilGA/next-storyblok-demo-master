@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Logo van TrendFocus -->
-  <img src="./readme-items/logo-light.png" alt="TrendFocus logo" height="100">
+  <img src="./readme-items/logo-trendfocus.png" alt="TrendFocus logo" height="100">
 </div>
 
 <div align="center">
