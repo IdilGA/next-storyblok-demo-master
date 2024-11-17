@@ -1,15 +1,22 @@
 <div align="center">
-  ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
-  ![Storyblok](https://img.shields.io/badge/Storyblok-blue?style=for-the-badge&logo=storyblok&logoColor=white)
+  <!-- Logo van TrendFocus -->
+  <img src="https://via.placeholder.com/150?text=TrendFocus+Logo" alt="TrendFocus logo" height="100">
+</div>
+
+<div align="center">
+  <!-- Next.js Badge -->
+  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js Badge">
+  
+  <!-- Storyblok Badge -->
+  <img src="https://img.shields.io/badge/Storyblok-blue?style=for-the-badge&logo=storyblok&logoColor=white" alt="Storyblok Badge">
 </div>
 
 <br></br>
 
 <div align="center">
-
-  <!-- Hier kun je het TrendFocus-logo plaatsen -->
-  <a href="https://github.com/IdilGA/next-storyblok-demo-master">
-    <img src="./readme-items/logo-trendfocus.svg" alt="TrendFocus logo" height="80">
+  <!-- Logo van 2manydots -->
+  <a href="https://www.2manydots.nl/">
+    <img src="https://via.placeholder.com/150?text=2manydots+Logo" alt="2manydots logo" height="80">
   </a>
 
   <h3 align="center">TrendFocus - Marketing Website</h3>
@@ -25,7 +32,6 @@
     <br>
     <a href="#suggesties">Suggesties voor verdere ontwikkeling</a>
   </p>
-
 </div>
 
 ---
