@@ -1,5 +1,5 @@
 <div align="center">
-[![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](#00DC82)
+https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 </div>
 <br></br>
 
