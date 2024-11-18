@@ -39,8 +39,6 @@
 
 <details>
     <summary>Table of Contents</summary>
-    <>
-        <>
             <li><a href="#het-project">Het project</a></li>
             <li><a href="#opstart-van-het-project">Opstart van het project</a></li>
             <li><a href="#pagina-indeling">Pagina-indeling</a></li>
