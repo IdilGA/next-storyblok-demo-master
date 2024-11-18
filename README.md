@@ -39,8 +39,8 @@
 
 <details>
     <summary>Table of Contents</summary>
-    <div>
-        <ol>
+    <>
+        <>
             <li><a href="#het-project">Het project</a></li>
             <li><a href="#opstart-van-het-project">Opstart van het project</a></li>
             <li><a href="#pagina-indeling">Pagina-indeling</a></li>
@@ -49,6 +49,7 @@
             <li><a href="#branches">Branches</a></li>
             <li><a href="#taakverdeling">Taakverdeling</a></li>
             <li><a href="#suggesties">Suggesties voor verdere ontwikkeling</a></li>
+             <li><a href="#getting-started">Getting Started</a></li> 
         </ol>
     </div>
 </details>
@@ -196,6 +197,36 @@ In dit project zijn de volgende branches gebruikt:
 | Interview                  | Freek          |
 
 ---
+
+### Getting Started
+
+Stap 1: 📥 Repository Klonen
+Volg de onderstaande stappen om de repository te klonen en lokaal aan de slag te gaan:
+
+Kloon de repository naar je lokale machine:
+
+bash
+Code kopiëren
+git clone https://github.com/IdilGA/next-storyblok-demo-master.git
+Navigeer naar de projectmap:
+
+bash
+Code kopiëren
+cd next-storyblok-demo-master
+Installeer de benodigde afhankelijkheden:
+
+bash
+Code kopiëren
+npm install
+Stap 2: 🏃‍♂️ Development Server Starten
+Start de ontwikkelserver:
+
+bash
+Code kopiëren
+npm run dev
+Open je browser en navigeer naar: http://localhost:3000
+
+Hier kun je de website lokaal bekijken en wijzigingen testen.
 
 # Reflectie
 
