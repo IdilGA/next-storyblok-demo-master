@@ -56,7 +56,7 @@
 
 # Het project
 
-In deze repository vind je de TrendFocus-marketingnieuwswebsite, ontwikkeld in samenwerking met [2manydots](https://www.2manydots.nl/).
+In deze repository vind je de TrendFocus-marketingnieuwswebsite, ontwikkeld in samenwerking met [2manydots](https://www.2manydots.nl/)..
 
 Dit project richt zich op het creëren van een schaalbare, dynamische website met moderne technologieën zoals **Next.js** en **Storyblok**.
 
