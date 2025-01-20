@@ -198,35 +198,54 @@ In dit project zijn de volgende branches gebruikt:
 | Component                                   | Ontwikkelaar   |
 | ------------------------------------------ | -------------- |
 | **Artikel-pagina Components**              |                |
-| ├─ [Advertentie](./components/Artikel-pagina/Advertentie.jsx) | Yusuf          |
-| ├─ [Artikel_Hero](./components/Artikel-pagina/Artikel_Hero.jsx) | Yusuf          |
-| ├─ [Artikel_Paragraaf](./components/Artikel-pagina/Artikel_Paragraaf.jsx) | Yusuf          |
-| ├─ [Artikel_Plaatsreactie](./components/Artikel-pagina/Artikel_Plaatsreactie.jsx) | Yusuf          |
-| ├─ [Artikel_Quote](./components/Artikel-pagina/Artikel_Quote.jsx) | Yusuf          |
-| ├─ [Artikel_info](./components/Artikel-pagina/Artikel_info.jsx) | Yusuf          |
-| ├─ [Artikel_intro](./components/Artikel-pagina/Artikel_intro.jsx) | Yusuf          |
-| ├─ [Artikel_leesverder](./components/Artikel-pagina/Artikel_leesverder.jsx) | Yusuf          |
-| └─ [Artikel_socialmedia](./components/Artikel-pagina/Artikel_socialmedia.jsx) | Yusuf          |
+| [Advertentie](./components/Artikel-pagina/Advertentie.jsx) | Yusuf          |
+| [Artikel_Hero](./components/Artikel-pagina/Artikel_Hero.jsx) | Yusuf          |
+| [Artikel_Paragraaf](./components/Artikel-pagina/Artikel_Paragraaf.jsx) | Yusuf          |
+| [Artikel_Plaatsreactie](./components/Artikel-pagina/Artikel_Plaatsreactie.jsx) | Yusuf          |
+| [Artikel_Quote](./components/Artikel-pagina/Artikel_Quote.jsx) | Yusuf          |
+| [Artikel_info](./components/Artikel-pagina/Artikel_info.jsx) | Yusuf          |
+| [Artikel_intro](./components/Artikel-pagina/Artikel_intro.jsx) | Yusuf          |
+| [Artikel_leesverder](./components/Artikel-pagina/Artikel_leesverder.jsx) | Yusuf          |
+| [Artikel_socialmedia](./components/Artikel-pagina/Artikel_socialmedia.jsx) | Yusuf          |
 | **Artikelen-pagina Components**            |                |
-| ├─ [Artikelen_Secondary](./components/Artikelen-pagina/Artikelen_Secondary.jsx) | Yusuf          |
-| └─ [Artikelen_header](./components/Artikelen-pagina/Artikelen_header.jsx) | Yusuf          |
-| **Evenementen Components**                 |                |
-| ├─ [Evenementen_Hero](./components/Evenementen-pagina/Evenementen_Hero.jsx) | Luc            |
-| ├─ [Evenementen_Kalender](./components/Evenementen-pagina/Evenementen_Kalender.jsx) | Luc            |
-| └─ [Evenementen_Lijst](./components/Evenementen-pagina/Evenementen_Lijst.jsx) | Luc            |
-| **Footer Components**                      |                |
-| ├─ [Footer_Main](./components/Footer/Footer_Main.jsx) | Idil           |
-| └─ [Footer_Secondary](./components/Footer/Footer_Secondary.jsx) | Idil           |
-| **Hero Components**                        |                |
-| ├─ [Hero_Main](./components/Hero/Hero_Main.jsx) | Idil           |
-| └─ [Hero_Secondary](./components/Hero/Hero_Secondary.jsx) | Idil           |
-| **Navbar Components**                      |                |
-| ├─ [Navbar_Desktop](./components/Navbar/Navbar_Desktop.jsx) | Idil           |
-| └─ [Navbar_Mobile](./components/Navbar/Navbar_Mobile.jsx) | Idil           |
-| **Nieuws Components**                      |                |
-| ├─ [Nieuws_Grid](./components/Nieuws/Nieuws_Grid.jsx) | Freek          |
-| ├─ [Nieuws_Hero](./components/Nieuws/Nieuws_Hero.jsx) | Freek          |
-| └─ [Nieuws_List](./components/Nieuws/Nieuws_List.jsx) | Freek          |
+| [Artikelen_Secondary](./components/Artikelen-pagina/Artikelen_Secondary.jsx) | Yusuf          |
+| [Artikelen_header](./components/Artikelen-pagina/Artikelen_header.jsx) | Yusuf          |
+| [Artikelen_headline](./components/Artikelen-pagina/Artikelen_headline.jsx) | Yusuf          |
+| **Layout Components**                       |                |
+| [Artikelen_links_layout](./components/artikelen_links_layout/artikelen_links_layout.jsx) | Yusuf          |
+| [Artikelen_onder_layout](./components/artikelen_onder_layout/artikelen_onder_layout.jsx) | Yusuf          |
+| [Container](./components/container/Container.jsx) | Yusuf          |
+| **Feature Components**                      |                |
+| [Feature](./components/Feature/Feature.jsx) | Yusuf          |
+| **Events Components**                       |                |
+| [Evenementen_intro](./components/Events/evenementen_intro.jsx) | Luc            |
+| **Footer Components**                       |                |
+| [Footer](./components/footer/Footer.jsx) | Idil           |
+| **Hero Components**                         |                |
+| [Hero_Secondary](./components/hero_Secondary/Hero_Secondary.jsx) | Idil           |
+| **Home Components**                         |                |
+| [Home](./components/home/Home.jsx) | Idil           |
+| **Interview Components**                    |                |
+| [Interview_layout](./components/interview_layout/Interview_layout.jsx) | Yusuf          |
+| [Interview_headline](./components/interviews-pagina/Interview_headline.jsx) | Yusuf          |
+| [Interviews_verzameling](./components/interviews-pagina/Interviews_verzameling.jsx) | Yusuf          |
+| [Interviews_intro](./components/interviews-pagina/interviews_intro.jsx) | Yusuf          |
+| [Netbinnen_Header](./components/interviews-pagina/Netbinnen_Header.jsx) | Yusuf          |
+| [Netbinnen_sidebar](./components/interviews-pagina/Netbinnen_sidebar.jsx) | Yusuf          |
+| **Kalender Components**                     |                |
+| [Carrousel](./components/kalender/carrousel.jsx) | Luc            |
+| [Kalender](./components/kalender/kalender.jsx) | Luc            |
+| [Slide](./components/kalender/slide.jsx) | Luc            |
+| **Navigatie Components**                    |                |
+| [Navigatie](./components/Navigatie/Navigatie.jsx) | Idil           |
+| **Nieuws Components**                       |                |
+| [Netbinnen_sidebar](./components/nieuwspagina/Netbinnen_sidebar.jsx) | Freek          |
+| [Nieuws_Advertentie](./components/nieuwspagina/Nieuws_Advertentie.jsx) | Freek          |
+| [Nieuws_Header](./components/nieuwspagina/Nieuws_Header.jsx) | Freek          |
+| [Nieuws_Interviews](./components/nieuwspagina/Nieuws_Interviews.jsx) | Freek          |
+| [Nieuws_Lijn](./components/nieuwspagina/Nieuws_Lijn.jsx) | Freek          |
+| [Nieuws_Nieuws](./components/nieuwspagina/Nieuws_Nieuws.jsx) | Freek          |
+| [Nieuws_Verzameling](./components/nieuwspagina/Nieuws_Verzameling.jsx) | Freek          |
 
 ---
 
