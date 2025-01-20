@@ -194,6 +194,40 @@ In dit project zijn de volgende branches gebruikt:
 | Nieuws                     | Freek          |
 | Interview & Artikelen      | Yusuf          |
 
+#### Componenten Overzicht
+| Component                                   | Ontwikkelaar   |
+| ------------------------------------------ | -------------- |
+| **Artikel-pagina Components**              |                |
+| ├─ [Advertentie](./components/Artikel-pagina/Advertentie.jsx) | Yusuf          |
+| ├─ [Artikel_Hero](./components/Artikel-pagina/Artikel_Hero.jsx) | Yusuf          |
+| ├─ [Artikel_Paragraaf](./components/Artikel-pagina/Artikel_Paragraaf.jsx) | Yusuf          |
+| ├─ [Artikel_Plaatsreactie](./components/Artikel-pagina/Artikel_Plaatsreactie.jsx) | Yusuf          |
+| ├─ [Artikel_Quote](./components/Artikel-pagina/Artikel_Quote.jsx) | Yusuf          |
+| ├─ [Artikel_info](./components/Artikel-pagina/Artikel_info.jsx) | Yusuf          |
+| ├─ [Artikel_intro](./components/Artikel-pagina/Artikel_intro.jsx) | Yusuf          |
+| ├─ [Artikel_leesverder](./components/Artikel-pagina/Artikel_leesverder.jsx) | Yusuf          |
+| └─ [Artikel_socialmedia](./components/Artikel-pagina/Artikel_socialmedia.jsx) | Yusuf          |
+| **Artikelen-pagina Components**            |                |
+| ├─ [Artikelen_Secondary](./components/Artikelen-pagina/Artikelen_Secondary.jsx) | Yusuf          |
+| └─ [Artikelen_header](./components/Artikelen-pagina/Artikelen_header.jsx) | Yusuf          |
+| **Evenementen Components**                 |                |
+| ├─ [Evenementen_Hero](./components/Evenementen-pagina/Evenementen_Hero.jsx) | Luc            |
+| ├─ [Evenementen_Kalender](./components/Evenementen-pagina/Evenementen_Kalender.jsx) | Luc            |
+| └─ [Evenementen_Lijst](./components/Evenementen-pagina/Evenementen_Lijst.jsx) | Luc            |
+| **Footer Components**                      |                |
+| ├─ [Footer_Main](./components/Footer/Footer_Main.jsx) | Idil           |
+| └─ [Footer_Secondary](./components/Footer/Footer_Secondary.jsx) | Idil           |
+| **Hero Components**                        |                |
+| ├─ [Hero_Main](./components/Hero/Hero_Main.jsx) | Idil           |
+| └─ [Hero_Secondary](./components/Hero/Hero_Secondary.jsx) | Idil           |
+| **Navbar Components**                      |                |
+| ├─ [Navbar_Desktop](./components/Navbar/Navbar_Desktop.jsx) | Idil           |
+| └─ [Navbar_Mobile](./components/Navbar/Navbar_Mobile.jsx) | Idil           |
+| **Nieuws Components**                      |                |
+| ├─ [Nieuws_Grid](./components/Nieuws/Nieuws_Grid.jsx) | Freek          |
+| ├─ [Nieuws_Hero](./components/Nieuws/Nieuws_Hero.jsx) | Freek          |
+| └─ [Nieuws_List](./components/Nieuws/Nieuws_List.jsx) | Freek          |
+
 ---
 
 ### Getting Started
